@@ -1,0 +1,9185 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.4 3079d8ea",
+  "osm3s": {
+    "timestamp_osm_base": "2018-11-10T15:33:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 21025095,
+  "nodes": [
+    280850519,
+    2560640148,
+    280850518,
+    3019160348,
+    280850516,
+    1810737028,
+    3019160349,
+    280870515,
+    3019160351,
+    3019160353,
+    280850515,
+    226009408,
+    3019160356,
+    226009421,
+    2720618791,
+    280850522,
+    2720618712,
+    2720618966,
+    2720618764,
+    2720619025,
+    226009431
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Mieczysława Karłowicza",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 21094558,
+  "nodes": [
+    236306981,
+    1470370978,
+    1883217642,
+    281474610,
+    1883217643,
+    1755264034,
+    1317839369,
+    1345789845,
+    1876117454,
+    1448506795,
+    2543050112,
+    226841632,
+    2543050118,
+    1878082160,
+    1875137000,
+    470618562,
+    1876117416,
+    1876568972,
+    226828656
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Aleja Kijowska",
+    "ref": "2264K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 21929772,
+  "nodes": [
+    236164878,
+    4960750296,
+    2462085319,
+    236164386
+  ],
+  "tags": {
+    "cyclewayboth": "no",
+    "dual_carriageway": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Nawojki",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "smoothness": "bad",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 21931190,
+  "nodes": [
+    207437138,
+    4539717071,
+    236313351
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Czarnowiejska",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "source": "gps",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turnlanes": "left;through|through"
+  }
+},
+{
+  "type": "way",
+  "id": 22414480,
+  "nodes": [
+    2419959800,
+    1876669650,
+    494604313
+  ],
+  "tags": {
+    "cycleway": "no",
+    "highway": "tertiary",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Królewska",
+    "namebe": "Каралеўская вуліца",
+    "old_name": "Wybickiego",
+    "oneway": "yes",
+    "ref": "2205K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 22424924,
+  "nodes": [
+    240971029,
+    3719851609,
+    265517216
+  ],
+  "tags": {
+    "agricultural": "no",
+    "cycleway": "opposite",
+    "hgv": "no",
+    "highway": "residential",
+    "horse": "no",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Karmelicka",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "onewaytourist_bus": "no",
+    "ref": "2205K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "concrete:plates"
+  }
+},
+{
+  "type": "way",
+  "id": 22431100,
+  "nodes": [
+    240977613,
+    1447569587,
+    3122230156,
+    3754211628
+  ],
+  "tags": {
+    "cyclewayleft": "no",
+    "cyclewayright": "lane",
+    "foot": "no",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23778348,
+  "nodes": [
+    257659338,
+    2614641459,
+    266695290,
+    3036688888,
+    268800771,
+    2614641449,
+    268800772,
+    4159986015,
+    236151807
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Krupnicza",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23825056,
+  "nodes": [
+    258234443,
+    1305803970,
+    288718557,
+    288718561,
+    258234445
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Igrców",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23825058,
+  "nodes": [
+    258234443,
+    1446903096,
+    356939293,
+    280889351,
+    258234439,
+    542633988,
+    280889403,
+    503254320,
+    2592151109,
+    1448506766,
+    258234441
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeedtype": "PL:urban",
+    "name": "Daniela Chodowieckiego",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23825059,
+  "nodes": [
+    258234448,
+    1446903103,
+    280889384,
+    632417955
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "maxspeedtype": "PL:urban",
+    "name": "Igrców",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24157631,
+  "nodes": [
+    261677470,
+    338263843,
+    261677472,
+    261677473,
+    261677474,
+    261677475
+  ],
+  "tags": {
+    "foot": "no",
+    "highway": "primary_link",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24193276,
+  "nodes": [
+    206350619,
+    3686803409,
+    1470371070,
+    206350618,
+    1470371135,
+    2480489000
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piastowska",
+    "oneway": "yes",
+    "ref": "2262K",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24193280,
+  "nodes": [
+    206350619,
+    338249554,
+    2319867933,
+    4462410166,
+    206350279
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "3",
+    "lanesbackward": "1",
+    "lanesforward": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piastowska",
+    "oneway": "no",
+    "ref": "2262K",
+    "sidewalk": "separate",
+    "surface": "asphalt",
+    "turnlanesforward": "left|through;right"
+  }
+},
+{
+  "type": "way",
+  "id": 24193282,
+  "nodes": [
+    262007334,
+    262007340,
+    1447910852,
+    262007348
+  ],
+  "tags": {
+    "cyclewayright": "no",
+    "dual_carriageway": "yes",
+    "foot": "no",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Piastowska",
+    "oneway": "yes",
+    "ref": "2262K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turnlanes": "left;through|through;right"
+  }
+},
+{
+  "type": "way",
+  "id": 24193284,
+  "nodes": [
+    262007334,
+    1447910836,
+    1447300374,
+    32122145,
+    1447569589,
+    240977613
+  ],
+  "tags": {
+    "cyclewayboth": "no",
+    "foot": "no",
+    "highway": "tertiary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Piastowska",
+    "ref": "2262K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24216387,
+  "nodes": [
+    262201253,
+    3719851599,
+    277933397,
+    3039915918,
+    5932836881,
+    262201254
+  ],
+  "tags": {
+    "cycleway": "no",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Ambrożego Grabowskiego",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24217450,
+  "nodes": [
+    262210523,
+    5018713662,
+    2413828444,
+    240977615
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cycleway": "lane",
+    "dual_carriageway": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24345739,
+  "nodes": [
+    264106094,
+    1417495931,
+    264106041,
+    264106043,
+    264106046,
+    264106049
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Plac Teodora Axentowicza",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24345907,
+  "nodes": [
+    240977615,
+    262210529,
+    264107315,
+    264342682,
+    264107314,
+    264107313,
+    264107312,
+    2566086780,
+    264345061,
+    1470371058,
+    236160006
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Miechowska",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24365259,
+  "nodes": [
+    264342689,
+    264342692
+  ],
+  "tags": {
+    "highway": "residential",
+    "name": "Władysława Reymonta",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24365261,
+  "nodes": [
+    264342661,
+    1919045707,
+    264342669,
+    264342671,
+    264342673,
+    2904274336,
+    1448506744,
+    3305763201,
+    2904274339,
+    264342675,
+    2501383119,
+    264342682
+  ],
+  "tags": {
+    "highway": "residential",
+    "motor_vehicle": "private",
+    "name": "Miechowska boczna",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24365262,
+  "nodes": [
+    257661074,
+    264342680,
+    2499463023,
+    3455726994,
+    264342661
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Akademicka",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24365428,
+  "nodes": [
+    226826871,
+    226826892,
+    1782223477,
+    226826956,
+    226826983,
+    226827051
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Toruńska",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24525405,
+  "nodes": [
+    266684911,
+    3464222339,
+    1196055375,
+    264106049
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Plac Teodora Axentowicza",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24525611,
+  "nodes": [
+    266684914,
+    3464224316,
+    1642480911
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Henryka Sienkiewicza",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24526364,
+  "nodes": [
+    268800770,
+    1390071847,
+    4187587203,
+    266696720
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Czysta",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "smoothness": "intermediate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24559263,
+  "nodes": [
+    236160006,
+    236163539,
+    236306981
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Nawojki",
+    "sidewalk": "separate",
+    "source": "gps",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24611315,
+  "nodes": [
+    267538595,
+    2564329474
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Stanisława Konarskiego",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24731526,
+  "nodes": [
+    268800771,
+    3037222324,
+    4187587201,
+    268800770
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Skarbowa",
+    "oneway": "yes",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24731527,
+  "nodes": [
+    268800772,
+    4159986017,
+    273533238,
+    268800773,
+    273533237,
+    1926258883,
+    268800774,
+    3039915917,
+    268800776
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Wenecja",
+    "oneway": "yes",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24804188,
+  "nodes": [
+    269484967,
+    2615906576
+  ],
+  "tags": {
+    "est_width": "4",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Mydlnicka",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25116427,
+  "nodes": [
+    1876669650,
+    2497646879,
+    1079816553,
+    1417495928,
+    257659388
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Pomorska",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 25116428,
+  "nodes": [
+    206350843,
+    2720618860,
+    273459780,
+    2720618653,
+    1876568932,
+    6012388255,
+    273459781
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Józefitów",
+    "note": "Na okres remontu odwrócono kierunek jazdy: http://zikit.krakow.pl/ogolne/223242,1787,komunikat,rusza_przebudowa_ulic_bronowickiej__krolewskiej_i_podchorazych__mapy_.html",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25116629,
+  "nodes": [
+    273461463,
+    2720619001,
+    2419959800
+  ],
+  "tags": {
+    "cycleway": "opposite_lane",
+    "foot": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Plac Inwalidów",
+    "old_name": "Ruska",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25116630,
+  "nodes": [
+    273461469,
+    2904879452,
+    273461465,
+    2472200679,
+    273461466
+  ],
+  "tags": {
+    "alt_name": "Fryderyka Szopena",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Fryderyka Chopina",
+    "old_name": "Płuczki, Szopena",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25116631,
+  "nodes": [
+    273461466,
+    3019160365,
+    267538591,
+    5865482458,
+    2720618900,
+    267538559
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Stanisława Konarskiego",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25116632,
+  "nodes": [
+    267538559,
+    3019160374,
+    1079816508,
+    2720619007,
+    2720619002,
+    5926931608,
+    1642529063,
+    1858434376
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Stanisława Konarskiego",
+    "note": "Na okres remontu Królewskiej droga jest dwukierunkowa: http://zikit.krakow.pl/ogolne/223242,1787,komunikat,rusza_przebudowa_ulic_bronowickiej__krolewskiej_i_podchorazych__mapy_.html",
+    "oneway": "no",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25117107,
+  "nodes": [
+    262201254,
+    5050309417,
+    207436117
+  ],
+  "tags": {
+    "cycleway": "no",
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Jana Kochanowskiego",
+    "old_name": "Stachowskiego",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25117108,
+  "nodes": [
+    262201254,
+    1979987766,
+    262201255
+  ],
+  "tags": {
+    "cycleway": "no",
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Jana Kochanowskiego",
+    "old_name": "Stachowskiego",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25117109,
+  "nodes": [
+    240971029,
+    280858370,
+    3282683077,
+    724399316,
+    5332328320,
+    265517208
+  ],
+  "tags": {
+    "cycleway": "no",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Juliusza Słowackiego",
+    "namebe": "Алея Юліюша Славацкага",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25117110,
+  "nodes": [
+    207435827,
+    2468665585
+  ],
+  "tags": {
+    "cycleway": "no",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25506794,
+  "nodes": [
+    277933397,
+    5932836883,
+    277933399,
+    3039915913,
+    3039915907,
+    3039915910
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Tadeusza Pawlikowskiego",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25752189,
+  "nodes": [
+    280850520,
+    280850522
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Symfoniczna",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25757056,
+  "nodes": [
+    280889351,
+    280889336,
+    280889329,
+    280889337,
+    280889331,
+    280889350,
+    1447569363,
+    280889333
+  ],
+  "tags": {
+    "highway": "residential",
+    "name": "Olimpijska",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25757064,
+  "nodes": [
+    280889336,
+    280889380,
+    280889353,
+    1446903198,
+    280889346,
+    280889388,
+    280889354,
+    1446903212,
+    280889348,
+    280889376,
+    280889350
+  ],
+  "tags": {
+    "highway": "residential",
+    "name": "Maurycego Beniowskiego",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 25757066,
+  "nodes": [
+    280889376,
+    356939291,
+    356939282,
+    1446903257,
+    356939289,
+    280889380
+  ],
+  "tags": {
+    "highway": "residential",
+    "name": "Cichy Kącik",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25757068,
+  "nodes": [
+    280889384,
+    1447569337,
+    280889388
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Ignacego Domeyki",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 25805269,
+  "nodes": [
+    1876568941,
+    2453169969,
+    281473146,
+    2557144956,
+    281472862,
+    2557144952,
+    2543050122,
+    206351247
+  ],
+  "tags": {
+    "agricultural": "no",
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "motorcycle": "no",
+    "name": "Kronikarza Galla",
+    "note": "Na okres remontu Królewskiej droga jest dwukierunkowa: http://zikit.krakow.pl/ogolne/223242,1787,komunikat,rusza_przebudowa_ulic_bronowickiej__krolewskiej_i_podchorazych__mapy_.html",
+    "old_name": "Pawła Popiela",
+    "oneway": "no",
+    "onewaybicycle": "no",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25805343,
+  "nodes": [
+    258234525,
+    3364798966,
+    5037691950,
+    1470375288,
+    5037691948,
+    3997598389,
+    3461650337
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Stanisława Skarbińskiego",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25805358,
+  "nodes": [
+    281474691,
+    3377146604,
+    3377146603,
+    281474609,
+    2405897331,
+    281474610
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Elbląska",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26041277,
+  "nodes": [
+    264106043,
+    5303267552,
+    5930210311,
+    284745457,
+    1929956476,
+    284745465,
+    284745474,
+    5644418170,
+    284745480,
+    1417495935,
+    5303267549,
+    284745488
+  ],
+  "tags": {
+    "cycleway": "no",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Edmunda Biernackiego",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26386669,
+  "nodes": [
+    206350833,
+    2671430385,
+    1755261371,
+    2720618949,
+    267538293,
+    2720618941,
+    1755264037,
+    5152060328,
+    2720618927,
+    2720618897,
+    267538559,
+    3019160373,
+    2720619060,
+    5865487025,
+    206350841,
+    1928240912,
+    2720618788,
+    206350843,
+    2543108159,
+    2543108161,
+    3455966393
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Juliusza Lea",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 28768943,
+  "nodes": [
+    240971029,
+    1079841404,
+    207435827
+  ],
+  "tags": {
+    "cycleway": "no",
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Królewska",
+    "namebe": "Каралеўская вуліца",
+    "oneway": "yes",
+    "ref": "2205K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 29325983,
+  "nodes": [
+    262210524,
+    1448935649
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "residential",
+    "maxspeedtype": "PL:urban",
+    "name": "Władysława Reymonta",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 29326874,
+  "nodes": [
+    1642480911,
+    1417495927,
+    257659388
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Plac Teodora Axentowicza",
+    "ref": "2265K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 30326770,
+  "nodes": [
+    226826747,
+    226826871
+  ],
+  "tags": {
+    "concrete": "plates",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Kawiory",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 30326777,
+  "nodes": [
+    258234509,
+    258234473,
+    1470370971,
+    236163261
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Witolda Budryka",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 30409066,
+  "nodes": [
+    2576898340,
+    4947724434,
+    4692967574,
+    340456381
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Antoniego Gramatyka",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "sign",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 30409535,
+  "nodes": [
+    266684914,
+    5645198656,
+    494609192
+  ],
+  "tags": {
+    "cyclewayboth": "no",
+    "highway": "residential",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Henryka Sienkiewicza",
+    "sidewalk": "both",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 30597280,
+  "nodes": [
+    338249416,
+    4467244864,
+    2319867936
+  ],
+  "tags": {
+    "access": "permissive",
+    "highway": "residential",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Rolnicza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 30601061,
+  "nodes": [
+    240977613,
+    1447569588
+  ],
+  "tags": {
+    "cyclewayboth": "no",
+    "foot": "no",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Jana Buszka",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 30601130,
+  "nodes": [
+    338335828,
+    1692502112,
+    1692502106,
+    1692502127,
+    2585048478,
+    1325756425,
+    338336031
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "20",
+    "name": "Juliana Tokarskiego",
+    "sidewalk": "separate",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 30601136,
+  "nodes": [
+    3653360351,
+    3819492989,
+    5786200471,
+    3653360366,
+    3819492988,
+    3653360361,
+    3653360352,
+    3653360353,
+    3653360354,
+    3653360360,
+    3036077775,
+    3036077773
+  ],
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "horse": "private",
+    "maxspeed": "20",
+    "motor_vehicle": "private",
+    "name": "Juliana Tokarskiego",
+    "oneway": "no",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 30787931,
+  "nodes": [
+    340456381,
+    5037691952,
+    258234521
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Stanisława Skarbińskiego",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37830025,
+  "nodes": [
+    236150723,
+    1798898144,
+    1448506734,
+    207437138
+  ],
+  "tags": {
+    "accesslanes": "yes|yes|no",
+    "buslanes": "||designated",
+    "destination": "Warszawa",
+    "destinationreflanes": "7|7|",
+    "destinationsymbol": "train_station",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "sign",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40716733,
+  "nodes": [
+    494604313,
+    724399317
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Królewska",
+    "namebe": "Каралеўская вуліца",
+    "old_name": "Wybickiego",
+    "oneway": "yes",
+    "ref": "2205K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40716890,
+  "nodes": [
+    207435827,
+    724399300,
+    265517203,
+    2419959792,
+    284799667
+  ],
+  "tags": {
+    "cyclewayright": "no",
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Królewska",
+    "namebe": "Каралеўская вуліца",
+    "old_name": "Wybickiego",
+    "oneway": "yes",
+    "ref": "2205K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40779666,
+  "nodes": [
+    495649049,
+    495649052,
+    495649054
+  ],
+  "tags": {
+    "cycleway": "no",
+    "foot": "yes",
+    "highway": "residential",
+    "name": "Spokojna",
+    "oneway": "no",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40779705,
+  "nodes": [
+    495649052,
+    5763201461,
+    495649040
+  ],
+  "tags": {
+    "cycleway": "no",
+    "foot": "yes",
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Ogrodniczek",
+    "oneway": "no",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41192466,
+  "nodes": [
+    503254313,
+    280889400,
+    280889401,
+    1447569469,
+    280889402,
+    1447569382,
+    280889403
+  ],
+  "tags": {
+    "highway": "residential",
+    "name": "Walerego Goetla",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41192467,
+  "nodes": [
+    280889400,
+    503254327,
+    1448506775,
+    2469855648,
+    503254317
+  ],
+  "tags": {
+    "highway": "residential",
+    "name": "Walerego Goetla",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41192468,
+  "nodes": [
+    503254320,
+    503254321,
+    503254325,
+    503254327
+  ],
+  "tags": {
+    "highway": "residential",
+    "name": "Feliksa Radwańskiego",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 45447180,
+  "nodes": [
+    273535641,
+    273535636,
+    4017869145,
+    2591447065,
+    266695295,
+    2595727839,
+    266695296,
+    273535644,
+    618318831,
+    1926258852,
+    288711047,
+    1305803953,
+    1305803937,
+    266695297
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Oleandry",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 46135810,
+  "nodes": [
+    264342689,
+    4017869152,
+    578254793,
+    566168708,
+    566168739,
+    331857693,
+    2413828441,
+    2225769051,
+    5018713706,
+    264342680,
+    2225774961,
+    4192240905,
+    4192240907,
+    2413828445,
+    262210529,
+    2413828446,
+    262210523
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cycleway": "lane",
+    "dual_carriageway": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 46135811,
+  "nodes": [
+    264342692,
+    2485578312
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "residential",
+    "name": "Władysława Reymonta",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 46168999,
+  "nodes": [
+    543374319,
+    1448506758,
+    5018713645,
+    2487544386,
+    1448506753,
+    2500840879
+  ],
+  "tags": {
+    "cyclewayboth": "lane",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 60650398,
+  "nodes": [
+    724399317,
+    724399309,
+    494601371,
+    2468665585
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "destinationlanes": "Rzeszów;Tarnów;Wieliczka|Centrum",
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Królewska",
+    "namebe": "Каралеўская вуліца",
+    "old_name": "Wybickiego",
+    "oneway": "yes",
+    "ref": "2205K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 67558684,
+  "nodes": [
+    236313351,
+    277927175,
+    277929311,
+    1676326498
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Czarnowiejska",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "source": "gps",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turnlanes": "through|right"
+  }
+},
+{
+  "type": "way",
+  "id": 114324801,
+  "nodes": [
+    236306981,
+    1345789846,
+    815569099,
+    1470371145
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Nawojki",
+    "sidewalk": "separate",
+    "source": "gps",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 114324803,
+  "nodes": [
+    207437138,
+    280858344,
+    5332328319,
+    1079841354,
+    207436117,
+    338263831,
+    261677475,
+    1798898224,
+    280858365,
+    240971029
+  ],
+  "tags": {
+    "cyclewayright": "no",
+    "destinationlanes": "Warszawa|Warszawa|Centrum",
+    "destinationsymbollanes": "train_station;centre|train_station;centre|centre",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lanespsv": "1",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "sign",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 118304895,
+  "nodes": [
+    418150494,
+    236151783
+  ],
+  "tags": {
+    "accesslanes": "yes|yes|yes|no",
+    "buslanes": "|||designated",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turnlanes": "left|through|through|through"
+  }
+},
+{
+  "type": "way",
+  "id": 118304896,
+  "nodes": [
+    265517200,
+    280870518,
+    1167933712
+  ],
+  "tags": {
+    "accesslanes": "yes|yes|no",
+    "buslanes": "||designated",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 119918895,
+  "nodes": [
+    264106094,
+    273459783,
+    1417495932,
+    240985582,
+    1642529083,
+    4860982200,
+    266684908,
+    1876754735,
+    240985580
+  ],
+  "tags": {
+    "cycleway": "no",
+    "foot": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Kazimierza Wielkiego",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "onewaypsv": "no",
+    "ref": "2265K",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120126064,
+  "nodes": [
+    1347653771,
+    2225760121,
+    3400342043,
+    2564329472,
+    2564329471,
+    1347653772
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Tkacka",
+    "noexit": "yes",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt",
+    "vehicle": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 133585546,
+  "nodes": [
+    1470375288,
+    1470375291,
+    1470375289
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Bydgoska",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 133585547,
+  "nodes": [
+    3364798966,
+    1470375290,
+    5037691951,
+    1470375289,
+    2984821473
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Bydgoska",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 154078452,
+  "nodes": [
+    1447569588,
+    3122230157,
+    2469866910
+  ],
+  "tags": {
+    "bicycle": "yes",
+    "cyclewayboth": "no",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Jana Buszka",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 155190161,
+  "nodes": [
+    207437138,
+    4539718729,
+    4539719370,
+    1676074015,
+    2961496322,
+    4014209133,
+    262201256
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Czarnowiejska",
+    "oneway": "no",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 155221402,
+  "nodes": [
+    236160072,
+    1347653771,
+    5092615172,
+    1878103659,
+    5439441809
+  ],
+  "tags": {
+    "buswayright": "lane",
+    "cycleway": "no",
+    "foot": "yes",
+    "highway": "secondary",
+    "lanes": "3",
+    "lanesbackward": "1",
+    "lanesforward": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Czarnowiejska",
+    "sidewalk": "separate",
+    "source": "gps",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 155221410,
+  "nodes": [
+    1676326498,
+    1676326463,
+    1676326493
+  ],
+  "tags": {
+    "destinationlanes": "Warszawa|Rzeszów;Tarnów;Wieliczka|Rzeszów;Tarnów;Wieliczka",
+    "destinationsymbollanes": "train_station;centre||",
+    "dual_carriageway": "yes",
+    "highway": "secondary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Czarnowiejska",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turnlanes": "left;through|right|right"
+  }
+},
+{
+  "type": "way",
+  "id": 155221411,
+  "nodes": [
+    1676326493,
+    5331206462,
+    277927169,
+    2106196385
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Czarnowiejska",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turnlanes": "left|through"
+  }
+},
+{
+  "type": "way",
+  "id": 155222946,
+  "nodes": [
+    236313351,
+    2106196385
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 163857606,
+  "nodes": [
+    1755257730,
+    3376781943,
+    3376781942
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Za Targiem",
+    "sidewalk": "no",
+    "surface": "asphalt",
+    "width": "2.5"
+  }
+},
+{
+  "type": "way",
+  "id": 163857607,
+  "nodes": [
+    1317839351,
+    1755257730
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Za Targiem",
+    "sidewalk": "right",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "width": "2.5"
+  }
+},
+{
+  "type": "way",
+  "id": 163858120,
+  "nodes": [
+    1755264037,
+    2720619027,
+    4244762395,
+    4244762396,
+    1755264036,
+    4244767598,
+    4244767593,
+    4244767597,
+    4244767478,
+    4244767488,
+    4244767596,
+    1755264035
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Kazimierza Czapińskiego"
+  }
+},
+{
+  "type": "way",
+  "id": 176494047,
+  "nodes": [
+    4447395468,
+    4447395467
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "foot": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Urzędnicza",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "both",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 177213408,
+  "nodes": [
+    277929321,
+    31349965
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 178067341,
+  "nodes": [
+    273461469,
+    1470371042,
+    236160072
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Urzędnicza",
+    "oneway": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 181350898,
+  "nodes": [
+    257659388,
+    1196055912,
+    264106094
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Plac Teodora Axentowicza",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "onewaypsv": "no",
+    "ref": "2265K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 181350900,
+  "nodes": [
+    1642480911,
+    3464224318,
+    284774384
+  ],
+  "tags": {
+    "cyclewayboth": "no",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Łobzowska",
+    "ref": "2265K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184311201,
+  "nodes": [
+    32122147,
+    356943645,
+    1446903087
+  ],
+  "tags": {
+    "foot": "no",
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeedtype": "PL:urban",
+    "name": "Piastowska",
+    "ref": "2262K",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 200654866,
+  "nodes": [
+    2106196385,
+    1448506736,
+    265517200
+  ],
+  "tags": {
+    "accesslanes": "yes|yes|no",
+    "buslanes": "||designated",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 200654867,
+  "nodes": [
+    2106196385,
+    1875729775
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Czarnowiejska",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turnlanes": "left|through"
+  }
+},
+{
+  "type": "way",
+  "id": 206880026,
+  "nodes": [
+    258234445,
+    1446903092,
+    1736650660,
+    32122147
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "foot": "no",
+    "highway": "unclassified",
+    "lanes": "2",
+    "lit": "yes",
+    "name": "Aleja 3 Maja",
+    "oneway": "yes",
+    "ref": "2261K",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 206880033,
+  "nodes": [
+    2480489000,
+    2480489003,
+    1470370977
+  ],
+  "tags": {
+    "cyclewayright": "no",
+    "dual_carriageway": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Armii Krajowej",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 206880045,
+  "nodes": [
+    262007348,
+    1447569601,
+    206348696,
+    1447569599,
+    2462085306,
+    4960750295,
+    236164878
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Nawojki",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turnlanes": "|merge_to_left"
+  }
+},
+{
+  "type": "way",
+  "id": 206880049,
+  "nodes": [
+    262007348,
+    262007350,
+    1470371119,
+    262007342,
+    206350619
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piastowska",
+    "oneway": "yes",
+    "ref": "2262K",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 206880050,
+  "nodes": [
+    258234448,
+    269484967
+  ],
+  "tags": {
+    "foot": "no",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeedtype": "PL:urban",
+    "name": "Piastowska",
+    "ref": "2262K",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 206880051,
+  "nodes": [
+    2480489000,
+    206348695,
+    1447910854,
+    4901705291,
+    262007336,
+    1325756418,
+    262007334
+  ],
+  "tags": {
+    "cyclewayright": "no",
+    "dual_carriageway": "yes",
+    "foot": "no",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Piastowska",
+    "oneway": "yes",
+    "ref": "2262K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 212763891,
+  "nodes": [
+    2225769051,
+    277927156
+  ],
+  "tags": {
+    "highway": "residential",
+    "name": "Władysława Reymonta",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 212764181,
+  "nodes": [
+    2225774961,
+    2225774959
+  ],
+  "tags": {
+    "highway": "residential",
+    "name": "Władysława Reymonta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 240278237,
+  "nodes": [
+    240977613,
+    1447569586
+  ],
+  "tags": {
+    "cyclewayboth": "no",
+    "foot": "no",
+    "highway": "tertiary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piastowska",
+    "ref": "2262K",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 240869997,
+  "nodes": [
+    273535638,
+    264342692
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 240869998,
+  "nodes": [
+    2485578312,
+    2489560358,
+    1448935645,
+    262210524
+  ],
+  "tags": {
+    "destinationlanes": "Warszawa|Rzeszów;Tarnów;Wieliczka",
+    "destinationsymbollanes": "train_station;centre|motorway",
+    "dual_carriageway": "yes",
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt",
+    "turnlanes": "left|right"
+  }
+},
+{
+  "type": "way",
+  "id": 241067896,
+  "nodes": [
+    2487544385,
+    240977614,
+    5018713646,
+    2225783910,
+    2351408906,
+    5018713659,
+    264107839,
+    262210523
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cycleway": "lane",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 241265362,
+  "nodes": [
+    1448935649,
+    2489560360,
+    264342689
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cycleway": "lane",
+    "dual_carriageway": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 242624640,
+  "nodes": [
+    2500840879,
+    2487544385
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cycleway": "lane",
+    "highway": "residential",
+    "name": "Władysława Reymonta",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 260028416,
+  "nodes": [
+    1447910772,
+    269484966,
+    269484965,
+    5047013725,
+    269484968,
+    2076327144,
+    269484969,
+    926630607,
+    269484970,
+    5047013741,
+    3796228267,
+    2076327172,
+    2076327175,
+    269484973,
+    269484974,
+    2076327190,
+    269484975,
+    2483154195,
+    269484978,
+    269484979,
+    3771893677,
+    269484982,
+    3771893676,
+    269484984,
+    269484985,
+    269484986,
+    269484987,
+    1325756734,
+    269484988,
+    3771893675,
+    269484990,
+    269484991,
+    269484992,
+    269484993,
+    269484994,
+    290273157
+  ],
+  "tags": {
+    "est_width": "4",
+    "highway": "residential",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Mydlnicka",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 260028417,
+  "nodes": [
+    2615906576,
+    1447910772
+  ],
+  "tags": {
+    "bicycle": "yes",
+    "est_width": "4",
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Mydlnicka",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277117057,
+  "nodes": [
+    261677476,
+    4272158615,
+    207435825,
+    265517201,
+    265517202,
+    494601378,
+    280858368,
+    207435827
+  ],
+  "tags": {
+    "accesslanes": "yes|yes|no",
+    "buslanes": "||designated",
+    "cycleway": "no",
+    "destination": "Rzeszów;Tarnów;Wieliczka;Warszawa;Katowice",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Aleja Juliusza Słowackiego",
+    "namebe": "Алея Юліюша Славацкага",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277117078,
+  "nodes": [
+    236151783,
+    1926258894,
+    4306409281
+  ],
+  "tags": {
+    "accesslanes": "yes|yes|no",
+    "buslanes": "||designated",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277117080,
+  "nodes": [
+    31349965,
+    5332381869,
+    261677470
+  ],
+  "tags": {
+    "cycleway": "no",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277117088,
+  "nodes": [
+    261677470,
+    277930729,
+    3802908427,
+    5332381870,
+    1448506739,
+    280858346,
+    236313351
+  ],
+  "tags": {
+    "cyclewayright": "no",
+    "destinationlanes": "Rzeszów;Tarnów;Wieliczka|Rzeszów;Tarnów;Wieliczka|Warszawa;Katowice",
+    "destinationref": "A4",
+    "destinationsymbollanes": "centre;castle|centre;castle|airport;motorway",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turnlanes": "through|through|right"
+  }
+},
+{
+  "type": "way",
+  "id": 277117089,
+  "nodes": [
+    1325703552,
+    418150494
+  ],
+  "tags": {
+    "destinationlanes": "Warszawa;Katowice|Warszawa;Katowice|Warszawa|Warszawa",
+    "destinationreflanes": "|A4|7|7",
+    "destinationsymbollanes": "|airport|train_station|train_station",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "sign",
+    "surface": "asphalt",
+    "turnlanes": "left|through|through|through"
+  }
+},
+{
+  "type": "way",
+  "id": 277424358,
+  "nodes": [
+    2819182579,
+    258234448
+  ],
+  "tags": {
+    "foot": "no",
+    "highway": "tertiary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeedtype": "PL:urban",
+    "name": "Piastowska",
+    "ref": "2262K",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277424359,
+  "nodes": [
+    2819182577,
+    1448506764
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cycleway": "lane",
+    "foot": "no",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piastowska",
+    "note": "Geoportal is here outdated (cycleway lanes painted on 2014-10-09, right turn lane removed)",
+    "ref": "2262K",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277424360,
+  "nodes": [
+    1470370977,
+    1470371038
+  ],
+  "tags": {
+    "cyclewayright": "no",
+    "dual_carriageway": "yes",
+    "highway": "secondary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Armii Krajowej",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277424361,
+  "nodes": [
+    1470371145,
+    236161566,
+    1691292881,
+    236164762,
+    236163150,
+    236162879,
+    264345060,
+    236163261,
+    1691292883,
+    2576893077,
+    815569094,
+    2525346517,
+    236164841,
+    236164878
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Nawojki",
+    "sidewalk": "separate",
+    "source": "gps",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277424366,
+  "nodes": [
+    236164386,
+    1447569602,
+    262007350,
+    2480489000
+  ],
+  "tags": {
+    "cyclewayright": "no",
+    "dual_carriageway": "yes",
+    "highway": "secondary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Nawojki",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "smoothness": "bad",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turnlanes": "left|through|through;right"
+  }
+},
+{
+  "type": "way",
+  "id": 277424369,
+  "nodes": [
+    1325756433,
+    1447910860,
+    206348695,
+    262007348
+  ],
+  "tags": {
+    "cyclewayright": "no",
+    "dual_carriageway": "yes",
+    "highway": "secondary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Armii Krajowej",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turnlanes": "left|through|through;right"
+  }
+},
+{
+  "type": "way",
+  "id": 284450664,
+  "nodes": [
+    240977615,
+    2413828443,
+    1448506733,
+    2225774959,
+    257661074,
+    5018713705,
+    277927156,
+    2413828440,
+    240977617,
+    2541583432,
+    273536006,
+    273536012
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cycleway": "lane",
+    "dual_carriageway": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 288028119,
+  "nodes": [
+    2564329474,
+    2720618781,
+    273461466
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Stanisława Konarskiego",
+    "oneway": "yes",
+    "parkinglaneboth": "parallel",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299681481,
+  "nodes": [
+    236151807,
+    1926332321,
+    236151410,
+    236150780,
+    1325703552
+  ],
+  "tags": {
+    "accesslanes": "yes|yes|no",
+    "buslanes": "||designated",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "sign",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 300358970,
+  "nodes": [
+    3044475375,
+    3376781969,
+    1755262267,
+    3376781951,
+    1317839351,
+    1755264033,
+    281474691
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Chocimska",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 300358971,
+  "nodes": [
+    281474691,
+    3376781927,
+    3044475376,
+    5174661337,
+    3044475377,
+    3044475379,
+    5174661336,
+    3044475380
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeedforward": "30",
+    "name": "Chocimska",
+    "sourcemaxspeedforward": "sign",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 304629930,
+  "nodes": [
+    2469866910,
+    338336150,
+    338335828,
+    2943823217,
+    5018740876,
+    338333769
+  ],
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Jana Buszka",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307157805,
+  "nodes": [
+    1447569586,
+    3122230155,
+    2819182577
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cycleway": "lane",
+    "foot": "no",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piastowska",
+    "note": "Geoportal is here outdated (cycleway lanes painted on 2014-10-09, right turn lane removed)",
+    "ref": "2262K",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307157806,
+  "nodes": [
+    1448506764,
+    280889389,
+    2943823143,
+    280889333,
+    5047012590,
+    1446903155,
+    2819182579
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cycleway": "lane",
+    "foot": "no",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Piastowska",
+    "note": "Geoportal is here outdated (cycleway lanes painted on 2014-11)",
+    "ref": "2262K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 310331215,
+  "nodes": [
+    226827051,
+    3491043511
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Toruńska",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 310383580,
+  "nodes": [
+    226826871,
+    3157532069,
+    1470371128,
+    264345060
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Kawiory",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 317923312,
+  "nodes": [
+    1448506790,
+    2228360524,
+    3242584427,
+    3242584429,
+    3242584432,
+    1448506794,
+    5186077237,
+    258234525
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Bydgoska",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 325988699,
+  "nodes": [
+    338249604,
+    3997598387,
+    1317839312,
+    4947723709,
+    1317839301,
+    3325983961,
+    338249554
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Rolnicza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 338179046,
+  "nodes": [
+    2319867936,
+    3445215671,
+    338249604
+  ],
+  "tags": {
+    "access": "permissive",
+    "highway": "residential",
+    "maxspeed": "20",
+    "name": "Rolnicza",
+    "sourcemaxspeed": "sign",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 338517269,
+  "nodes": [
+    3455966393,
+    273461463
+  ],
+  "tags": {
+    "cycleway": "opposite_lane",
+    "highway": "residential",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Juliusza Lea",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 360788210,
+  "nodes": [
+    3653360351,
+    3653360358
+  ],
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "horse": "private",
+    "maxspeed": "20",
+    "motor_vehicle": "private",
+    "name": "Juliana Tokarskiego",
+    "oneway": "no",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 371870325,
+  "nodes": [
+    3754211626,
+    3754211625
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cycleway": "lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 371870326,
+  "nodes": [
+    3754211625,
+    543371337,
+    543374319
+  ],
+  "tags": {
+    "cyclewayboth": "lane",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 371870327,
+  "nodes": [
+    3754211627,
+    1448506770,
+    258234441,
+    3754211626
+  ],
+  "tags": {
+    "cyclewayboth": "lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 371870328,
+  "nodes": [
+    3754211628,
+    1406336597,
+    503254317,
+    258234475,
+    3754211627
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cycleway": "lane",
+    "foot": "no",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 372625190,
+  "nodes": [
+    266695297,
+    3754628389,
+    2423244278,
+    277931842,
+    277931838,
+    262210522,
+    3741515640,
+    5598899527,
+    2423298444,
+    3741515645,
+    1447910759,
+    1447910765,
+    258234445
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "foot": "no",
+    "highway": "unclassified",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Aleja 3 Maja",
+    "oneway": "yes",
+    "ref": "2261K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "sign",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 376694602,
+  "nodes": [
+    1676326498,
+    1470371036,
+    3802908426,
+    280858336,
+    280850519,
+    280858333,
+    226009431,
+    4159986024,
+    3802908440,
+    226009456,
+    4159986025,
+    273461468
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Karola Szymanowskiego",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 378534041,
+  "nodes": [
+    338336150,
+    1447569591,
+    2585048469,
+    3653360365,
+    3036077763,
+    2585048488,
+    3036077764,
+    3036077770,
+    3036077773
+  ],
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "horse": "private",
+    "maxspeed": "20",
+    "motor_vehicle": "private",
+    "name": "Juliana Tokarskiego",
+    "oneway": "no",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 378536728,
+  "nodes": [
+    3036077773,
+    1692502111,
+    3036081785,
+    3997980794,
+    3036081788,
+    3036081790,
+    3036077799,
+    3997980793,
+    2626031799,
+    338336245,
+    3653360351
+  ],
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "horse": "private",
+    "maxspeed": "20",
+    "motor_vehicle": "private",
+    "name": "Juliana Tokarskiego",
+    "oneway": "no",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 384158490,
+  "nodes": [
+    1782223336,
+    236163115,
+    236160006
+  ],
+  "tags": {
+    "cycleway": "no",
+    "foot": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Czarnowiejska",
+    "sidewalk": "separate",
+    "source": "gps",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 396270578,
+  "nodes": [
+    1448506780,
+    1406336597
+  ],
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "horse": "private",
+    "maxspeed": "20",
+    "motor_vehicle": "private",
+    "name": "Józefa Rostafińskiego",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 428067500,
+  "nodes": [
+    207435825,
+    1417480000,
+    4161284769,
+    266684914
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Teofila Lenartowicza",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431445481,
+  "nodes": [
+    207437974,
+    207437975,
+    1448935629,
+    266695294
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "sign",
+    "surface": "asphalt",
+    "turnlanes": "through|through|right"
+  }
+},
+{
+  "type": "way",
+  "id": 431445483,
+  "nodes": [
+    262210524,
+    236151783
+  ],
+  "tags": {
+    "cyclewayleft": "lane",
+    "highway": "primary_link",
+    "lanes": "4",
+    "lanesbackward": "2",
+    "lanesforward": "2",
+    "lit": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt",
+    "turnlanesbackward": "left|through",
+    "turnlanesforward": "left|left"
+  }
+},
+{
+  "type": "way",
+  "id": 431445484,
+  "nodes": [
+    4306409281,
+    236150723
+  ],
+  "tags": {
+    "accesslanes": "yes|yes|yes|yes|no",
+    "buslanes": "||||designated",
+    "cycleway": "no",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "5",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sourcemaxspeed": "sign",
+    "surface": "asphalt",
+    "turnlanes": "left|left|through|through|none"
+  }
+},
+{
+  "type": "way",
+  "id": 431445485,
+  "nodes": [
+    1167933712,
+    1926258898,
+    262210524
+  ],
+  "tags": {
+    "cyclewayright": "no",
+    "destinationlanes": "Rzeszów;Tarnów;Wieliczka|Rzeszów;Tarnów;Wieliczka|",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt",
+    "turnlanes": "through|through|right"
+  }
+},
+{
+  "type": "way",
+  "id": 431445487,
+  "nodes": [
+    1875729775,
+    4539717070,
+    207437138
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Czarnowiejska",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turnlanes": "left|through"
+  }
+},
+{
+  "type": "way",
+  "id": 431516755,
+  "nodes": [
+    262210524,
+    418150493,
+    31349968,
+    815569163,
+    207437974
+  ],
+  "tags": {
+    "accesslanes": "yes|yes|no",
+    "buslanes": "||designated",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "sign",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 439654027,
+  "nodes": [
+    206350833,
+    2671430399,
+    1876754727,
+    1875136997,
+    5926931610,
+    1876568929
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "foot": "yes",
+    "highway": "residential",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Nowowiejska",
+    "note": "Na okres remontu Królewskiej droga jest dwukierunkowa: http://zikit.krakow.pl/ogolne/223242,1787,komunikat,rusza_przebudowa_ulic_bronowickiej__krolewskiej_i_podchorazych__mapy_.html",
+    "oneway": "no",
+    "onewaybicycle": "no",
+    "sidewalk": "both",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 440915828,
+  "nodes": [
+    5216106595,
+    236164926,
+    3305763205,
+    1882892447,
+    815569058,
+    236163144,
+    236160527,
+    377778944,
+    236160072
+  ],
+  "tags": {
+    "buswayright": "lane",
+    "cycleway": "no",
+    "foot": "yes",
+    "highway": "secondary",
+    "lanes": "3",
+    "lanesbackward": "1",
+    "lanesforward": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Czarnowiejska",
+    "sidewalk": "separate",
+    "source": "gps",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 447662400,
+  "nodes": [
+    3044475375,
+    281474693,
+    4567172332,
+    1755261373
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Juliusza Lea",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 447662401,
+  "nodes": [
+    226841632,
+    1928222998,
+    2597945396,
+    2597945395,
+    3044475375
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Juliusza Lea",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 447662402,
+  "nodes": [
+    4447398213,
+    4447398212
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "foot": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Urzędnicza",
+    "note": "Na okres remontu Królewskiej droga jest dwukierunkowa: http://zikit.krakow.pl/ogolne/223242,1787,komunikat,rusza_przebudowa_ulic_bronowickiej__krolewskiej_i_podchorazych__mapy_.html",
+    "oneway": "no",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 447662403,
+  "nodes": [
+    4447398212,
+    2720618678,
+    267538293
+  ],
+  "tags": {
+    "cycleway": "opposite_lane",
+    "foot": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Urzędnicza",
+    "note": "Na okres remontu Królewskiej droga jest dwukierunkowa: http://zikit.krakow.pl/ogolne/223242,1787,komunikat,rusza_przebudowa_ulic_bronowickiej__krolewskiej_i_podchorazych__mapy_.html",
+    "oneway": "no",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 447662460,
+  "nodes": [
+    4447395467,
+    495649040,
+    4017869156,
+    273461469
+  ],
+  "tags": {
+    "cycleway": "opposite_lane",
+    "foot": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Urzędnicza",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "both",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 447662462,
+  "nodes": [
+    267538293,
+    1926368268,
+    1870103535,
+    4447395468
+  ],
+  "tags": {
+    "cycleway": "opposite_lane",
+    "foot": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Urzędnicza",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 455715604,
+  "nodes": [
+    1755261373,
+    206350833
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Juliusza Lea",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 456689171,
+  "nodes": [
+    269484967,
+    1446903099,
+    261737346,
+    5047045728,
+    5047045729,
+    32122147
+  ],
+  "tags": {
+    "foot": "no",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Piastowska",
+    "ref": "2262K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 475556409,
+  "nodes": [
+    340456381,
+    2319867928,
+    4467244860,
+    206351242
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Antoniego Gramatyka",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 475556413,
+  "nodes": [
+    206350279,
+    3325983965,
+    1317839298,
+    338249416,
+    287551063,
+    1914389486,
+    206351242,
+    3412516123,
+    1914358913,
+    206351244,
+    5695872693,
+    3461650337,
+    5037691926,
+    1876117442,
+    1235329348,
+    335603806,
+    1909896163,
+    206351247,
+    2990656980,
+    3469112809,
+    3469112808,
+    3469112806,
+    565534705,
+    226841632
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Juliusza Lea",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 530025262,
+  "nodes": [
+    206350843,
+    2720618765,
+    2720618754,
+    2720618804,
+    280850514
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Józefitów",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 530025270,
+  "nodes": [
+    273459781,
+    6012388256,
+    2720618893,
+    273459782,
+    1417495930,
+    273459783
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Józefitów",
+    "note": "Na okres remontu odwrócono kierunek jazdy: http://zikit.krakow.pl/ogolne/223242,1787,komunikat,rusza_przebudowa_ulic_bronowickiej__krolewskiej_i_podchorazych__mapy_.html",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 530343901,
+  "nodes": [
+    1870103539,
+    1642529074,
+    4447398214,
+    4447398213
+  ],
+  "tags": {
+    "access": "private",
+    "foot": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Urzędnicza",
+    "sidewalk": "both",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 530563583,
+  "nodes": [
+    273461466,
+    3019160364,
+    273461467,
+    2720618724,
+    280850514
+  ],
+  "tags": {
+    "alt_name": "Fryderyka Szopena",
+    "cycleway": "opposite",
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Fryderyka Chopina",
+    "old_name": "Płuczki, Szopena",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 530563745,
+  "nodes": [
+    280850514,
+    4159986026,
+    4159986027,
+    273461468
+  ],
+  "tags": {
+    "alt_name": "Fryderyka Szopena",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Fryderyka Chopina",
+    "old_name": "Płuczki, Szopena",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 531940824,
+  "nodes": [
+    273461468,
+    2720618889,
+    2543108159
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Karola Szymanowskiego",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 534331570,
+  "nodes": [
+    1642480945,
+    4161284779,
+    266684912,
+    284774309,
+    266684911
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Henryka Sienkiewicza",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 534857239,
+  "nodes": [
+    266684911,
+    2301481276,
+    1417495929,
+    1642480911
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Henryka Sienkiewicza",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 538978472,
+  "nodes": [
+    5216106595,
+    1782223336
+  ],
+  "tags": {
+    "cycleway": "no",
+    "foot": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Czarnowiejska",
+    "sidewalk": "separate",
+    "source": "gps",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 545626196,
+  "nodes": [
+    268800770,
+    3037222993,
+    3037222992,
+    266696722
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Czysta",
+    "smoothness": "intermediate",
+    "sourcemaxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 547762248,
+  "nodes": [
+    632417955,
+    1446903094,
+    258234443
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "name": "Igrców",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 549146500,
+  "nodes": [
+    2468665585,
+    280858366,
+    494601377,
+    277929321
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Aleja Adama Mickiewicza",
+    "namebe": "Алея Адама Міцкевіча",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 549146501,
+  "nodes": [
+    2468665585,
+    1079841415,
+    240971029
+  ],
+  "tags": {
+    "access": "no",
+    "cycleway": "no",
+    "dual_carriageway": "yes",
+    "emergency": "yes",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Królewska",
+    "namebe": "Каралеўская вуліца",
+    "oneway": "yes",
+    "psv": "yes",
+    "ref": "2205K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 558612810,
+  "nodes": [
+    206348687,
+    815569102,
+    4960707690,
+    2943732867,
+    1325756433
+  ],
+  "tags": {
+    "cyclewayright": "no",
+    "dual_carriageway": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Armii Krajowej",
+    "oneway": "yes",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 564607398,
+  "nodes": [
+    5439441808,
+    1875707762,
+    1676326498
+  ],
+  "tags": {
+    "cycleway": "no",
+    "foot": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Czarnowiejska",
+    "sidewalk": "separate",
+    "source": "gps",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 564607399,
+  "nodes": [
+    5439441807,
+    280870516,
+    1876754757,
+    5439441808
+  ],
+  "tags": {
+    "buswayright": "lane",
+    "cycleway": "no",
+    "foot": "yes",
+    "highway": "secondary",
+    "lanes": "3",
+    "lanesbackward": "1",
+    "lanesforward": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Czarnowiejska",
+    "sidewalk": "separate",
+    "source": "gps",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 564607400,
+  "nodes": [
+    5439441809,
+    267538595,
+    2564329470,
+    5439441807
+  ],
+  "tags": {
+    "cycleway": "no",
+    "foot": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Czarnowiejska",
+    "sidewalk": "separate",
+    "source": "gps",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 565319743,
+  "nodes": [
+    273536012,
+    566168708
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "3",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 565319744,
+  "nodes": [
+    273536012,
+    273535638
+  ],
+  "tags": {
+    "bicycle": "designated",
+    "cycleway": "lane",
+    "dual_carriageway": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Władysława Reymonta",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 627370855,
+  "nodes": [
+    284799667,
+    1876669652,
+    494604313
+  ],
+  "tags": {
+    "access": "no",
+    "cyclewayright": "no",
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeedconditional": "60 @ (23:00-05:00)",
+    "name": "Królewska",
+    "namebe": "Каралеўская вуліца",
+    "old_name": "Wybickiego",
+    "oneway": "yes",
+    "ref": "2205K",
+    "sidewalk": "separate",
+    "sourcemaxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 627818254,
+  "nodes": [
+    5926931609,
+    1876633335,
+    1870103539
+  ],
+  "tags": {
+    "access": "private",
+    "foot": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Urzędnicza",
+    "note": "Na okres remontu Królewskiej droga jest dwukierunkowa: http://zikit.krakow.pl/ogolne/223242,1787,komunikat,rusza_przebudowa_ulic_bronowickiej__krolewskiej_i_podchorazych__mapy_.html",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 637820941,
+  "nodes": [
+    281473036,
+    1878082170,
+    3997598393,
+    4692967572,
+    206351244
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "maxspeedtype": "PL:zone30",
+    "name": "Mariana Smoluchowskiego",
+    "oneway": "yes",
+    "onewaybicycle": "no",
+    "onewaypsv": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "node",
+  "id": 269484970,
+  "lat": 50.0653400,
+  "lon": 19.8955350
+},
+{
+  "type": "node",
+  "id": 269484978,
+  "lat": 50.0661805,
+  "lon": 19.8920039
+},
+{
+  "type": "node",
+  "id": 269484979,
+  "lat": 50.0661835,
+  "lon": 19.8918241
+},
+{
+  "type": "node",
+  "id": 269484982,
+  "lat": 50.0662389,
+  "lon": 19.8914342
+},
+{
+  "type": "node",
+  "id": 926630607,
+  "lat": 50.0651155,
+  "lon": 19.8962728
+},
+{
+  "type": "node",
+  "id": 2076327172,
+  "lat": 50.0656709,
+  "lon": 19.8943016
+},
+{
+  "type": "node",
+  "id": 2076327175,
+  "lat": 50.0658578,
+  "lon": 19.8936919
+},
+{
+  "type": "node",
+  "id": 2483154195,
+  "lat": 50.0662285,
+  "lon": 19.8921300
+},
+{
+  "type": "node",
+  "id": 3771893677,
+  "lat": 50.0662030,
+  "lon": 19.8916280
+},
+{
+  "type": "node",
+  "id": 3796228267,
+  "lat": 50.0655399,
+  "lon": 19.8947953
+},
+{
+  "type": "node",
+  "id": 5047013741,
+  "lat": 50.0654623,
+  "lon": 19.8950823
+},
+{
+  "type": "node",
+  "id": 269484986,
+  "lat": 50.0670024,
+  "lon": 19.8896772
+},
+{
+  "type": "node",
+  "id": 269484987,
+  "lat": 50.0672610,
+  "lon": 19.8889333
+},
+{
+  "type": "node",
+  "id": 269484988,
+  "lat": 50.0674402,
+  "lon": 19.8883199
+},
+{
+  "type": "node",
+  "id": 269484990,
+  "lat": 50.0675883,
+  "lon": 19.8880050
+},
+{
+  "type": "node",
+  "id": 269484991,
+  "lat": 50.0676864,
+  "lon": 19.8879489
+},
+{
+  "type": "node",
+  "id": 269484992,
+  "lat": 50.0678006,
+  "lon": 19.8879218
+},
+{
+  "type": "node",
+  "id": 269484993,
+  "lat": 50.0680966,
+  "lon": 19.8878229
+},
+{
+  "type": "node",
+  "id": 269484994,
+  "lat": 50.0681744,
+  "lon": 19.8877558
+},
+{
+  "type": "node",
+  "id": 290273157,
+  "lat": 50.0682105,
+  "lon": 19.8876810
+},
+{
+  "type": "node",
+  "id": 1325756734,
+  "lat": 50.0673157,
+  "lon": 19.8887462
+},
+{
+  "type": "node",
+  "id": 3771893675,
+  "lat": 50.0675122,
+  "lon": 19.8881071
+},
+{
+  "type": "node",
+  "id": 269484973,
+  "lat": 50.0663060,
+  "lon": 19.8925107
+},
+{
+  "type": "node",
+  "id": 269484974,
+  "lat": 50.0663304,
+  "lon": 19.8924009
+},
+{
+  "type": "node",
+  "id": 269484975,
+  "lat": 50.0663124,
+  "lon": 19.8922538
+},
+{
+  "type": "node",
+  "id": 269484984,
+  "lat": 50.0664103,
+  "lon": 19.8909841
+},
+{
+  "type": "node",
+  "id": 269484985,
+  "lat": 50.0666513,
+  "lon": 19.8905103
+},
+{
+  "type": "node",
+  "id": 2076327190,
+  "lat": 50.0663334,
+  "lon": 19.8923215
+},
+{
+  "type": "node",
+  "id": 3771893676,
+  "lat": 50.0662957,
+  "lon": 19.8912588
+},
+{
+  "type": "node",
+  "id": 32122147,
+  "lat": 50.0626032,
+  "lon": 19.9024569
+},
+{
+  "type": "node",
+  "id": 258234448,
+  "lat": 50.0632015,
+  "lon": 19.9027242
+},
+{
+  "type": "node",
+  "id": 261737346,
+  "lat": 50.0629553,
+  "lon": 19.9026618
+},
+{
+  "type": "node",
+  "id": 269484965,
+  "lat": 50.0637848,
+  "lon": 19.9005033
+},
+{
+  "type": "node",
+  "id": 269484966,
+  "lat": 50.0634203,
+  "lon": 19.9015737
+},
+{
+  "type": "node",
+  "id": 269484967,
+  "lat": 50.0631176,
+  "lon": 19.9027122
+},
+{
+  "type": "node",
+  "id": 269484968,
+  "lat": 50.0644145,
+  "lon": 19.8985142
+},
+{
+  "type": "node",
+  "id": 269484969,
+  "lat": 50.0648546,
+  "lon": 19.8970604
+},
+{
+  "type": "node",
+  "id": 280889333,
+  "lat": 50.0656976,
+  "lon": 19.9030167
+},
+{
+  "type": "node",
+  "id": 356943645,
+  "lat": 50.0623868,
+  "lon": 19.9023132
+},
+{
+  "type": "node",
+  "id": 1446903087,
+  "lat": 50.0622481,
+  "lon": 19.9022256
+},
+{
+  "type": "node",
+  "id": 1446903092,
+  "lat": 50.0625573,
+  "lon": 19.9027380
+},
+{
+  "type": "node",
+  "id": 1446903099,
+  "lat": 50.0630379,
+  "lon": 19.9026968
+},
+{
+  "type": "node",
+  "id": 1446903103,
+  "lat": 50.0631809,
+  "lon": 19.9028780
+},
+{
+  "type": "node",
+  "id": 1446903155,
+  "lat": 50.0640600,
+  "lon": 19.9028224
+},
+{
+  "type": "node",
+  "id": 1447569363,
+  "lat": 50.0656926,
+  "lon": 19.9031392
+},
+{
+  "type": "node",
+  "id": 1447910772,
+  "lat": 50.0631559,
+  "lon": 19.9024969
+},
+{
+  "type": "node",
+  "id": 1736650660,
+  "lat": 50.0625801,
+  "lon": 19.9025986
+},
+{
+  "type": "node",
+  "id": 2076327144,
+  "lat": 50.0647015,
+  "lon": 19.8976544
+},
+{
+  "type": "node",
+  "id": 2615906576,
+  "lat": 50.0631322,
+  "lon": 19.9026390
+},
+{
+  "type": "node",
+  "id": 2819182579,
+  "lat": 50.0635732,
+  "lon": 19.9027780
+},
+{
+  "type": "node",
+  "id": 2943823143,
+  "lat": 50.0657942,
+  "lon": 19.9030263
+},
+{
+  "type": "node",
+  "id": 5047012590,
+  "lat": 50.0644654,
+  "lon": 19.9028705
+},
+{
+  "type": "node",
+  "id": 5047013725,
+  "lat": 50.0639788,
+  "lon": 19.8998905
+},
+{
+  "type": "node",
+  "id": 5047045728,
+  "lat": 50.0627682,
+  "lon": 19.9025559
+},
+{
+  "type": "node",
+  "id": 5047045729,
+  "lat": 50.0627130,
+  "lon": 19.9025241
+},
+{
+  "type": "node",
+  "id": 258234439,
+  "lat": 50.0652534,
+  "lon": 19.9068176
+},
+{
+  "type": "node",
+  "id": 258234443,
+  "lat": 50.0629280,
+  "lon": 19.9040481
+},
+{
+  "type": "node",
+  "id": 258234445,
+  "lat": 50.0623866,
+  "lon": 19.9037828
+},
+{
+  "type": "node",
+  "id": 280889329,
+  "lat": 50.0654728,
+  "lon": 19.9052341
+},
+{
+  "type": "node",
+  "id": 280889331,
+  "lat": 50.0656166,
+  "lon": 19.9046058
+},
+{
+  "type": "node",
+  "id": 280889336,
+  "lat": 50.0653085,
+  "lon": 19.9055936
+},
+{
+  "type": "node",
+  "id": 280889337,
+  "lat": 50.0655714,
+  "lon": 19.9049077
+},
+{
+  "type": "node",
+  "id": 280889346,
+  "lat": 50.0644841,
+  "lon": 19.9045054
+},
+{
+  "type": "node",
+  "id": 280889348,
+  "lat": 50.0647089,
+  "lon": 19.9040497
+},
+{
+  "type": "node",
+  "id": 280889350,
+  "lat": 50.0656494,
+  "lon": 19.9041875
+},
+{
+  "type": "node",
+  "id": 280889351,
+  "lat": 50.0649050,
+  "lon": 19.9063937
+},
+{
+  "type": "node",
+  "id": 280889353,
+  "lat": 50.0645449,
+  "lon": 19.9047040
+},
+{
+  "type": "node",
+  "id": 280889354,
+  "lat": 50.0645829,
+  "lon": 19.9041178
+},
+{
+  "type": "node",
+  "id": 280889376,
+  "lat": 50.0649571,
+  "lon": 19.9040864
+},
+{
+  "type": "node",
+  "id": 280889380,
+  "lat": 50.0647414,
+  "lon": 19.9049537
+},
+{
+  "type": "node",
+  "id": 280889384,
+  "lat": 50.0630706,
+  "lon": 19.9034210
+},
+{
+  "type": "node",
+  "id": 280889388,
+  "lat": 50.0644918,
+  "lon": 19.9042919
+},
+{
+  "type": "node",
+  "id": 280889402,
+  "lat": 50.0660495,
+  "lon": 19.9059419
+},
+{
+  "type": "node",
+  "id": 280889403,
+  "lat": 50.0656064,
+  "lon": 19.9069371
+},
+{
+  "type": "node",
+  "id": 288718557,
+  "lat": 50.0626785,
+  "lon": 19.9039258
+},
+{
+  "type": "node",
+  "id": 288718561,
+  "lat": 50.0624530,
+  "lon": 19.9038153
+},
+{
+  "type": "node",
+  "id": 356939282,
+  "lat": 50.0649177,
+  "lon": 19.9045581
+},
+{
+  "type": "node",
+  "id": 356939289,
+  "lat": 50.0648450,
+  "lon": 19.9047641
+},
+{
+  "type": "node",
+  "id": 356939291,
+  "lat": 50.0649496,
+  "lon": 19.9043272
+},
+{
+  "type": "node",
+  "id": 356939293,
+  "lat": 50.0631916,
+  "lon": 19.9043237
+},
+{
+  "type": "node",
+  "id": 542633988,
+  "lat": 50.0653651,
+  "lon": 19.9068630
+},
+{
+  "type": "node",
+  "id": 632417955,
+  "lat": 50.0630556,
+  "lon": 19.9034855
+},
+{
+  "type": "node",
+  "id": 1305803970,
+  "lat": 50.0627246,
+  "lon": 19.9039484
+},
+{
+  "type": "node",
+  "id": 1446903094,
+  "lat": 50.0629603,
+  "lon": 19.9039047
+},
+{
+  "type": "node",
+  "id": 1446903096,
+  "lat": 50.0629735,
+  "lon": 19.9040853
+},
+{
+  "type": "node",
+  "id": 1446903198,
+  "lat": 50.0645070,
+  "lon": 19.9046044
+},
+{
+  "type": "node",
+  "id": 1446903212,
+  "lat": 50.0646408,
+  "lon": 19.9040526
+},
+{
+  "type": "node",
+  "id": 1446903257,
+  "lat": 50.0648824,
+  "lon": 19.9046796
+},
+{
+  "type": "node",
+  "id": 1447569337,
+  "lat": 50.0631129,
+  "lon": 19.9034461
+},
+{
+  "type": "node",
+  "id": 1447569382,
+  "lat": 50.0658121,
+  "lon": 19.9064377
+},
+{
+  "type": "node",
+  "id": 1447569469,
+  "lat": 50.0661788,
+  "lon": 19.9056186
+},
+{
+  "type": "node",
+  "id": 1447910759,
+  "lat": 50.0618963,
+  "lon": 19.9069584
+},
+{
+  "type": "node",
+  "id": 1447910765,
+  "lat": 50.0620904,
+  "lon": 19.9057111
+},
+{
+  "type": "node",
+  "id": 2423298444,
+  "lat": 50.0616233,
+  "lon": 19.9087423
+},
+{
+  "type": "node",
+  "id": 3741515645,
+  "lat": 50.0618703,
+  "lon": 19.9071260
+},
+{
+  "type": "node",
+  "id": 5598899527,
+  "lat": 50.0614721,
+  "lon": 19.9097130
+},
+{
+  "type": "node",
+  "id": 32122145,
+  "lat": 50.0680753,
+  "lon": 19.9032289
+},
+{
+  "type": "node",
+  "id": 206348687,
+  "lat": 50.0707927,
+  "lon": 19.8983235
+},
+{
+  "type": "node",
+  "id": 240977613,
+  "lat": 50.0674217,
+  "lon": 19.9031624
+},
+{
+  "type": "node",
+  "id": 280889389,
+  "lat": 50.0664343,
+  "lon": 19.9030902
+},
+{
+  "type": "node",
+  "id": 338333769,
+  "lat": 50.0678578,
+  "lon": 19.9000613
+},
+{
+  "type": "node",
+  "id": 338335828,
+  "lat": 50.0676952,
+  "lon": 19.9012151
+},
+{
+  "type": "node",
+  "id": 338336031,
+  "lat": 50.0691876,
+  "lon": 19.9018287
+},
+{
+  "type": "node",
+  "id": 338336150,
+  "lat": 50.0675865,
+  "lon": 19.9019208
+},
+{
+  "type": "node",
+  "id": 338336245,
+  "lat": 50.0698761,
+  "lon": 19.9027479
+},
+{
+  "type": "node",
+  "id": 815569102,
+  "lat": 50.0706985,
+  "lon": 19.8989723
+},
+{
+  "type": "node",
+  "id": 1325756425,
+  "lat": 50.0688764,
+  "lon": 19.9017187
+},
+{
+  "type": "node",
+  "id": 1325756433,
+  "lat": 50.0701827,
+  "lon": 19.9027125
+},
+{
+  "type": "node",
+  "id": 1447300374,
+  "lat": 50.0682352,
+  "lon": 19.9032659
+},
+{
+  "type": "node",
+  "id": 1447569586,
+  "lat": 50.0672796,
+  "lon": 19.9031535
+},
+{
+  "type": "node",
+  "id": 1447569588,
+  "lat": 50.0674397,
+  "lon": 19.9029763
+},
+{
+  "type": "node",
+  "id": 1447569589,
+  "lat": 50.0675603,
+  "lon": 19.9031790
+},
+{
+  "type": "node",
+  "id": 1447569591,
+  "lat": 50.0677368,
+  "lon": 19.9019632
+},
+{
+  "type": "node",
+  "id": 1448506764,
+  "lat": 50.0665799,
+  "lon": 19.9031011
+},
+{
+  "type": "node",
+  "id": 1470370977,
+  "lat": 50.0703893,
+  "lon": 19.9020092
+},
+{
+  "type": "node",
+  "id": 1470371038,
+  "lat": 50.0705471,
+  "lon": 19.9008719
+},
+{
+  "type": "node",
+  "id": 1692502106,
+  "lat": 50.0680157,
+  "lon": 19.9013341
+},
+{
+  "type": "node",
+  "id": 1692502111,
+  "lat": 50.0693313,
+  "lon": 19.9025389
+},
+{
+  "type": "node",
+  "id": 1692502112,
+  "lat": 50.0678722,
+  "lon": 19.9012741
+},
+{
+  "type": "node",
+  "id": 1692502127,
+  "lat": 50.0688342,
+  "lon": 19.9016208
+},
+{
+  "type": "node",
+  "id": 2469866910,
+  "lat": 50.0674786,
+  "lon": 19.9026873
+},
+{
+  "type": "node",
+  "id": 2585048469,
+  "lat": 50.0688150,
+  "lon": 19.9023598
+},
+{
+  "type": "node",
+  "id": 2585048478,
+  "lat": 50.0688419,
+  "lon": 19.9016433
+},
+{
+  "type": "node",
+  "id": 2585048488,
+  "lat": 50.0689949,
+  "lon": 19.9024216
+},
+{
+  "type": "node",
+  "id": 2626031799,
+  "lat": 50.0698399,
+  "lon": 19.9027320
+},
+{
+  "type": "node",
+  "id": 2819182577,
+  "lat": 50.0667651,
+  "lon": 19.9031150
+},
+{
+  "type": "node",
+  "id": 2943732867,
+  "lat": 50.0705075,
+  "lon": 19.9003306
+},
+{
+  "type": "node",
+  "id": 2943823217,
+  "lat": 50.0677789,
+  "lon": 19.9005711
+},
+{
+  "type": "node",
+  "id": 3036077763,
+  "lat": 50.0689184,
+  "lon": 19.9023953
+},
+{
+  "type": "node",
+  "id": 3036077764,
+  "lat": 50.0690223,
+  "lon": 19.9024312
+},
+{
+  "type": "node",
+  "id": 3036077770,
+  "lat": 50.0691429,
+  "lon": 19.9024732
+},
+{
+  "type": "node",
+  "id": 3036077773,
+  "lat": 50.0691898,
+  "lon": 19.9024896
+},
+{
+  "type": "node",
+  "id": 3036077775,
+  "lat": 50.0692001,
+  "lon": 19.9024167
+},
+{
+  "type": "node",
+  "id": 3036077799,
+  "lat": 50.0697498,
+  "lon": 19.9026978
+},
+{
+  "type": "node",
+  "id": 3036081785,
+  "lat": 50.0693469,
+  "lon": 19.9025448
+},
+{
+  "type": "node",
+  "id": 3036081788,
+  "lat": 50.0696100,
+  "lon": 19.9026447
+},
+{
+  "type": "node",
+  "id": 3036081790,
+  "lat": 50.0696311,
+  "lon": 19.9026527
+},
+{
+  "type": "node",
+  "id": 3122230155,
+  "lat": 50.0672598,
+  "lon": 19.9031523
+},
+{
+  "type": "node",
+  "id": 3122230157,
+  "lat": 50.0674470,
+  "lon": 19.9029341
+},
+{
+  "type": "node",
+  "id": 3653360351,
+  "lat": 50.0699283,
+  "lon": 19.9024122
+},
+{
+  "type": "node",
+  "id": 3653360352,
+  "lat": 50.0692852,
+  "lon": 19.9021688
+},
+{
+  "type": "node",
+  "id": 3653360353,
+  "lat": 50.0692523,
+  "lon": 19.9021932
+},
+{
+  "type": "node",
+  "id": 3653360354,
+  "lat": 50.0692241,
+  "lon": 19.9022419
+},
+{
+  "type": "node",
+  "id": 3653360358,
+  "lat": 50.0700843,
+  "lon": 19.9024787
+},
+{
+  "type": "node",
+  "id": 3653360360,
+  "lat": 50.0692100,
+  "lon": 19.9023468
+},
+{
+  "type": "node",
+  "id": 3653360361,
+  "lat": 50.0693211,
+  "lon": 19.9021616
+},
+{
+  "type": "node",
+  "id": 3653360365,
+  "lat": 50.0688881,
+  "lon": 19.9023849
+},
+{
+  "type": "node",
+  "id": 3653360366,
+  "lat": 50.0694853,
+  "lon": 19.9022266
+},
+{
+  "type": "node",
+  "id": 3819492988,
+  "lat": 50.0693838,
+  "lon": 19.9021870
+},
+{
+  "type": "node",
+  "id": 3819492989,
+  "lat": 50.0698979,
+  "lon": 19.9023995
+},
+{
+  "type": "node",
+  "id": 3997980793,
+  "lat": 50.0697674,
+  "lon": 19.9027045
+},
+{
+  "type": "node",
+  "id": 3997980794,
+  "lat": 50.0694322,
+  "lon": 19.9025772
+},
+{
+  "type": "node",
+  "id": 4960707690,
+  "lat": 50.0706325,
+  "lon": 19.8994496
+},
+{
+  "type": "node",
+  "id": 5018740876,
+  "lat": 50.0678238,
+  "lon": 19.9002810
+},
+{
+  "type": "node",
+  "id": 5786200471,
+  "lat": 50.0698220,
+  "lon": 19.9023691
+},
+{
+  "type": "node",
+  "id": 206348695,
+  "lat": 50.0700045,
+  "lon": 19.9038979
+},
+{
+  "type": "node",
+  "id": 206348696,
+  "lat": 50.0699223,
+  "lon": 19.9044654
+},
+{
+  "type": "node",
+  "id": 206350279,
+  "lat": 50.0723436,
+  "lon": 19.9049823
+},
+{
+  "type": "node",
+  "id": 206350618,
+  "lat": 50.0704140,
+  "lon": 19.9040929
+},
+{
+  "type": "node",
+  "id": 206350619,
+  "lat": 50.0709283,
+  "lon": 19.9044049
+},
+{
+  "type": "node",
+  "id": 206351242,
+  "lat": 50.0720718,
+  "lon": 19.9069529
+},
+{
+  "type": "node",
+  "id": 206351244,
+  "lat": 50.0718322,
+  "lon": 19.9093368
+},
+{
+  "type": "node",
+  "id": 226826747,
+  "lat": 50.0683554,
+  "lon": 19.9096935
+},
+{
+  "type": "node",
+  "id": 226826871,
+  "lat": 50.0688203,
+  "lon": 19.9097771
+},
+{
+  "type": "node",
+  "id": 236163261,
+  "lat": 50.0693431,
+  "lon": 19.9088162
+},
+{
+  "type": "node",
+  "id": 236164386,
+  "lat": 50.0699477,
+  "lon": 19.9049484
+},
+{
+  "type": "node",
+  "id": 236164841,
+  "lat": 50.0697662,
+  "lon": 19.9059381
+},
+{
+  "type": "node",
+  "id": 236164878,
+  "lat": 50.0697902,
+  "lon": 19.9057853
+},
+{
+  "type": "node",
+  "id": 258234441,
+  "lat": 50.0667830,
+  "lon": 19.9073812
+},
+{
+  "type": "node",
+  "id": 258234473,
+  "lat": 50.0691498,
+  "lon": 19.9087465
+},
+{
+  "type": "node",
+  "id": 258234475,
+  "lat": 50.0669545,
+  "lon": 19.9062565
+},
+{
+  "type": "node",
+  "id": 258234509,
+  "lat": 50.0684570,
+  "lon": 19.9084861
+},
+{
+  "type": "node",
+  "id": 258234521,
+  "lat": 50.0711622,
+  "lon": 19.9076818
+},
+{
+  "type": "node",
+  "id": 258234525,
+  "lat": 50.0709172,
+  "lon": 19.9092278
+},
+{
+  "type": "node",
+  "id": 262007334,
+  "lat": 50.0690378,
+  "lon": 19.9035798
+},
+{
+  "type": "node",
+  "id": 262007336,
+  "lat": 50.0694817,
+  "lon": 19.9036783
+},
+{
+  "type": "node",
+  "id": 262007340,
+  "lat": 50.0694866,
+  "lon": 19.9037967
+},
+{
+  "type": "node",
+  "id": 262007342,
+  "lat": 50.0703679,
+  "lon": 19.9041828
+},
+{
+  "type": "node",
+  "id": 262007348,
+  "lat": 50.0699855,
+  "lon": 19.9040286
+},
+{
+  "type": "node",
+  "id": 262007350,
+  "lat": 50.0700962,
+  "lon": 19.9040715
+},
+{
+  "type": "node",
+  "id": 264345060,
+  "lat": 50.0691905,
+  "lon": 19.9098346
+},
+{
+  "type": "node",
+  "id": 280889400,
+  "lat": 50.0663627,
+  "lon": 19.9046161
+},
+{
+  "type": "node",
+  "id": 280889401,
+  "lat": 50.0662540,
+  "lon": 19.9053072
+},
+{
+  "type": "node",
+  "id": 287551063,
+  "lat": 50.0721493,
+  "lon": 19.9063999
+},
+{
+  "type": "node",
+  "id": 338249416,
+  "lat": 50.0722179,
+  "lon": 19.9058944
+},
+{
+  "type": "node",
+  "id": 338249554,
+  "lat": 50.0713472,
+  "lon": 19.9046127
+},
+{
+  "type": "node",
+  "id": 338249604,
+  "lat": 50.0711917,
+  "lon": 19.9054728
+},
+{
+  "type": "node",
+  "id": 340456381,
+  "lat": 50.0714095,
+  "lon": 19.9066778
+},
+{
+  "type": "node",
+  "id": 503254313,
+  "lat": 50.0664157,
+  "lon": 19.9033073
+},
+{
+  "type": "node",
+  "id": 503254317,
+  "lat": 50.0671693,
+  "lon": 19.9048318
+},
+{
+  "type": "node",
+  "id": 503254320,
+  "lat": 50.0662513,
+  "lon": 19.9071868
+},
+{
+  "type": "node",
+  "id": 503254321,
+  "lat": 50.0666598,
+  "lon": 19.9062117
+},
+{
+  "type": "node",
+  "id": 503254325,
+  "lat": 50.0668361,
+  "lon": 19.9048557
+},
+{
+  "type": "node",
+  "id": 503254327,
+  "lat": 50.0668771,
+  "lon": 19.9047475
+},
+{
+  "type": "node",
+  "id": 543371337,
+  "lat": 50.0665355,
+  "lon": 19.9089916
+},
+{
+  "type": "node",
+  "id": 543374319,
+  "lat": 50.0664906,
+  "lon": 19.9093030
+},
+{
+  "type": "node",
+  "id": 815569094,
+  "lat": 50.0697062,
+  "lon": 19.9062976
+},
+{
+  "type": "node",
+  "id": 1317839298,
+  "lat": 50.0722961,
+  "lon": 19.9053737
+},
+{
+  "type": "node",
+  "id": 1317839301,
+  "lat": 50.0713037,
+  "lon": 19.9048248
+},
+{
+  "type": "node",
+  "id": 1317839312,
+  "lat": 50.0712276,
+  "lon": 19.9052628
+},
+{
+  "type": "node",
+  "id": 1325756418,
+  "lat": 50.0692313,
+  "lon": 19.9035962
+},
+{
+  "type": "node",
+  "id": 1406336597,
+  "lat": 50.0672073,
+  "lon": 19.9045693
+},
+{
+  "type": "node",
+  "id": 1447569587,
+  "lat": 50.0673985,
+  "lon": 19.9032873
+},
+{
+  "type": "node",
+  "id": 1447569599,
+  "lat": 50.0698603,
+  "lon": 19.9049546
+},
+{
+  "type": "node",
+  "id": 1447569601,
+  "lat": 50.0699605,
+  "lon": 19.9042023
+},
+{
+  "type": "node",
+  "id": 1447569602,
+  "lat": 50.0700668,
+  "lon": 19.9042466
+},
+{
+  "type": "node",
+  "id": 1447910836,
+  "lat": 50.0688708,
+  "lon": 19.9035135
+},
+{
+  "type": "node",
+  "id": 1447910852,
+  "lat": 50.0698624,
+  "lon": 19.9039732
+},
+{
+  "type": "node",
+  "id": 1447910854,
+  "lat": 50.0698836,
+  "lon": 19.9038500
+},
+{
+  "type": "node",
+  "id": 1447910860,
+  "lat": 50.0700294,
+  "lon": 19.9037261
+},
+{
+  "type": "node",
+  "id": 1448506753,
+  "lat": 50.0664292,
+  "lon": 19.9097067
+},
+{
+  "type": "node",
+  "id": 1448506758,
+  "lat": 50.0664749,
+  "lon": 19.9094065
+},
+{
+  "type": "node",
+  "id": 1448506766,
+  "lat": 50.0666699,
+  "lon": 19.9073399
+},
+{
+  "type": "node",
+  "id": 1448506770,
+  "lat": 50.0668038,
+  "lon": 19.9072447
+},
+{
+  "type": "node",
+  "id": 1448506775,
+  "lat": 50.0670411,
+  "lon": 19.9047948
+},
+{
+  "type": "node",
+  "id": 1448506780,
+  "lat": 50.0673455,
+  "lon": 19.9046211
+},
+{
+  "type": "node",
+  "id": 1448506790,
+  "lat": 50.0699122,
+  "lon": 19.9089381
+},
+{
+  "type": "node",
+  "id": 1448506794,
+  "lat": 50.0702818,
+  "lon": 19.9090445
+},
+{
+  "type": "node",
+  "id": 1470370971,
+  "lat": 50.0692550,
+  "lon": 19.9087845
+},
+{
+  "type": "node",
+  "id": 1470371070,
+  "lat": 50.0706694,
+  "lon": 19.9042209
+},
+{
+  "type": "node",
+  "id": 1470371119,
+  "lat": 50.0702109,
+  "lon": 19.9041204
+},
+{
+  "type": "node",
+  "id": 1470371128,
+  "lat": 50.0691042,
+  "lon": 19.9098170
+},
+{
+  "type": "node",
+  "id": 1470371135,
+  "lat": 50.0702334,
+  "lon": 19.9039950
+},
+{
+  "type": "node",
+  "id": 1470375290,
+  "lat": 50.0706120,
+  "lon": 19.9096396
+},
+{
+  "type": "node",
+  "id": 1691292883,
+  "lat": 50.0693761,
+  "lon": 19.9086049
+},
+{
+  "type": "node",
+  "id": 1878082170,
+  "lat": 50.0721122,
+  "lon": 19.9094050
+},
+{
+  "type": "node",
+  "id": 1914358913,
+  "lat": 50.0718524,
+  "lon": 19.9091770
+},
+{
+  "type": "node",
+  "id": 1914389486,
+  "lat": 50.0720932,
+  "lon": 19.9067882
+},
+{
+  "type": "node",
+  "id": 2228360524,
+  "lat": 50.0700307,
+  "lon": 19.9089727
+},
+{
+  "type": "node",
+  "id": 2319867928,
+  "lat": 50.0715604,
+  "lon": 19.9067313
+},
+{
+  "type": "node",
+  "id": 2319867933,
+  "lat": 50.0718639,
+  "lon": 19.9048041
+},
+{
+  "type": "node",
+  "id": 2319867936,
+  "lat": 50.0717295,
+  "lon": 19.9056979
+},
+{
+  "type": "node",
+  "id": 2462085306,
+  "lat": 50.0698440,
+  "lon": 19.9051270
+},
+{
+  "type": "node",
+  "id": 2462085319,
+  "lat": 50.0699095,
+  "lon": 19.9051775
+},
+{
+  "type": "node",
+  "id": 2469855648,
+  "lat": 50.0671365,
+  "lon": 19.9048223
+},
+{
+  "type": "node",
+  "id": 2480489000,
+  "lat": 50.0701164,
+  "lon": 19.9039435
+},
+{
+  "type": "node",
+  "id": 2480489003,
+  "lat": 50.0701446,
+  "lon": 19.9037740
+},
+{
+  "type": "node",
+  "id": 2487544386,
+  "lat": 50.0664371,
+  "lon": 19.9096545
+},
+{
+  "type": "node",
+  "id": 2500840879,
+  "lat": 50.0664135,
+  "lon": 19.9098127
+},
+{
+  "type": "node",
+  "id": 2525346517,
+  "lat": 50.0697536,
+  "lon": 19.9060001
+},
+{
+  "type": "node",
+  "id": 2576893077,
+  "lat": 50.0696646,
+  "lon": 19.9065916
+},
+{
+  "type": "node",
+  "id": 2576898340,
+  "lat": 50.0700959,
+  "lon": 19.9061183
+},
+{
+  "type": "node",
+  "id": 2592151109,
+  "lat": 50.0664141,
+  "lon": 19.9072463
+},
+{
+  "type": "node",
+  "id": 3122230156,
+  "lat": 50.0673872,
+  "lon": 19.9033752
+},
+{
+  "type": "node",
+  "id": 3157532069,
+  "lat": 50.0690051,
+  "lon": 19.9097983
+},
+{
+  "type": "node",
+  "id": 3242584427,
+  "lat": 50.0700541,
+  "lon": 19.9089801
+},
+{
+  "type": "node",
+  "id": 3242584429,
+  "lat": 50.0700775,
+  "lon": 19.9089866
+},
+{
+  "type": "node",
+  "id": 3242584432,
+  "lat": 50.0701028,
+  "lon": 19.9089943
+},
+{
+  "type": "node",
+  "id": 3325983961,
+  "lat": 50.0713232,
+  "lon": 19.9047220
+},
+{
+  "type": "node",
+  "id": 3325983965,
+  "lat": 50.0723294,
+  "lon": 19.9050995
+},
+{
+  "type": "node",
+  "id": 3364798966,
+  "lat": 50.0708579,
+  "lon": 19.9097124
+},
+{
+  "type": "node",
+  "id": 3412516123,
+  "lat": 50.0719853,
+  "lon": 19.9078295
+},
+{
+  "type": "node",
+  "id": 3445215671,
+  "lat": 50.0712221,
+  "lon": 19.9054857
+},
+{
+  "type": "node",
+  "id": 3686803409,
+  "lat": 50.0707840,
+  "lon": 19.9043024
+},
+{
+  "type": "node",
+  "id": 3754211625,
+  "lat": 50.0665477,
+  "lon": 19.9088983
+},
+{
+  "type": "node",
+  "id": 3754211626,
+  "lat": 50.0667554,
+  "lon": 19.9076178
+},
+{
+  "type": "node",
+  "id": 3754211627,
+  "lat": 50.0668880,
+  "lon": 19.9066524
+},
+{
+  "type": "node",
+  "id": 3754211628,
+  "lat": 50.0673017,
+  "lon": 19.9039686
+},
+{
+  "type": "node",
+  "id": 3997598387,
+  "lat": 50.0712113,
+  "lon": 19.9053580
+},
+{
+  "type": "node",
+  "id": 3997598393,
+  "lat": 50.0720792,
+  "lon": 19.9093972
+},
+{
+  "type": "node",
+  "id": 4462410166,
+  "lat": 50.0722391,
+  "lon": 19.9049435
+},
+{
+  "type": "node",
+  "id": 4467244860,
+  "lat": 50.0720100,
+  "lon": 19.9069257
+},
+{
+  "type": "node",
+  "id": 4467244864,
+  "lat": 50.0721588,
+  "lon": 19.9058671
+},
+{
+  "type": "node",
+  "id": 4692967572,
+  "lat": 50.0719165,
+  "lon": 19.9093589
+},
+{
+  "type": "node",
+  "id": 4692967574,
+  "lat": 50.0710257,
+  "lon": 19.9065143
+},
+{
+  "type": "node",
+  "id": 4901705291,
+  "lat": 50.0697427,
+  "lon": 19.9037929
+},
+{
+  "type": "node",
+  "id": 4947723709,
+  "lat": 50.0712333,
+  "lon": 19.9052292
+},
+{
+  "type": "node",
+  "id": 4947724434,
+  "lat": 50.0701301,
+  "lon": 19.9061329
+},
+{
+  "type": "node",
+  "id": 4960750295,
+  "lat": 50.0698272,
+  "lon": 19.9053511
+},
+{
+  "type": "node",
+  "id": 4960750296,
+  "lat": 50.0698352,
+  "lon": 19.9055562
+},
+{
+  "type": "node",
+  "id": 5018713645,
+  "lat": 50.0664545,
+  "lon": 19.9095405
+},
+{
+  "type": "node",
+  "id": 5037691952,
+  "lat": 50.0713677,
+  "lon": 19.9068475
+},
+{
+  "type": "node",
+  "id": 5186077237,
+  "lat": 50.0706342,
+  "lon": 19.9091462
+},
+{
+  "type": "node",
+  "id": 240977615,
+  "lat": 50.0656888,
+  "lon": 19.9139555
+},
+{
+  "type": "node",
+  "id": 262210522,
+  "lat": 50.0611050,
+  "lon": 19.9120984
+},
+{
+  "type": "node",
+  "id": 262210523,
+  "lat": 50.0658777,
+  "lon": 19.9132829
+},
+{
+  "type": "node",
+  "id": 262210529,
+  "lat": 50.0657533,
+  "lon": 19.9139892
+},
+{
+  "type": "node",
+  "id": 264107315,
+  "lat": 50.0658316,
+  "lon": 19.9140116
+},
+{
+  "type": "node",
+  "id": 264107839,
+  "lat": 50.0659582,
+  "lon": 19.9128021
+},
+{
+  "type": "node",
+  "id": 264342669,
+  "lat": 50.0660169,
+  "lon": 19.9153347
+},
+{
+  "type": "node",
+  "id": 264342671,
+  "lat": 50.0660967,
+  "lon": 19.9149873
+},
+{
+  "type": "node",
+  "id": 264342673,
+  "lat": 50.0661262,
+  "lon": 19.9149060
+},
+{
+  "type": "node",
+  "id": 277931838,
+  "lat": 50.0610857,
+  "lon": 19.9122233
+},
+{
+  "type": "node",
+  "id": 1448506733,
+  "lat": 50.0655889,
+  "lon": 19.9143897
+},
+{
+  "type": "node",
+  "id": 1448506744,
+  "lat": 50.0662051,
+  "lon": 19.9147682
+},
+{
+  "type": "node",
+  "id": 2225774959,
+  "lat": 50.0654499,
+  "lon": 19.9149917
+},
+{
+  "type": "node",
+  "id": 2225774961,
+  "lat": 50.0655470,
+  "lon": 19.9150448
+},
+{
+  "type": "node",
+  "id": 2225783910,
+  "lat": 50.0661845,
+  "lon": 19.9112978
+},
+{
+  "type": "node",
+  "id": 2351408906,
+  "lat": 50.0661067,
+  "lon": 19.9118353
+},
+{
+  "type": "node",
+  "id": 2413828443,
+  "lat": 50.0656560,
+  "lon": 19.9140884
+},
+{
+  "type": "node",
+  "id": 2413828444,
+  "lat": 50.0657137,
+  "lon": 19.9138444
+},
+{
+  "type": "node",
+  "id": 2413828445,
+  "lat": 50.0657223,
+  "lon": 19.9141228
+},
+{
+  "type": "node",
+  "id": 2413828446,
+  "lat": 50.0657800,
+  "lon": 19.9138797
+},
+{
+  "type": "node",
+  "id": 2904274336,
+  "lat": 50.0661859,
+  "lon": 19.9148242
+},
+{
+  "type": "node",
+  "id": 3305763201,
+  "lat": 50.0662334,
+  "lon": 19.9146230
+},
+{
+  "type": "node",
+  "id": 3741515640,
+  "lat": 50.0612976,
+  "lon": 19.9108331
+},
+{
+  "type": "node",
+  "id": 4192240905,
+  "lat": 50.0655906,
+  "lon": 19.9148314
+},
+{
+  "type": "node",
+  "id": 4192240907,
+  "lat": 50.0656383,
+  "lon": 19.9145023
+},
+{
+  "type": "node",
+  "id": 5018713659,
+  "lat": 50.0660866,
+  "lon": 19.9119663
+},
+{
+  "type": "node",
+  "id": 5018713662,
+  "lat": 50.0658335,
+  "lon": 19.9134341
+},
+{
+  "type": "node",
+  "id": 240977617,
+  "lat": 50.0644865,
+  "lon": 19.9191424
+},
+{
+  "type": "node",
+  "id": 257661074,
+  "lat": 50.0650621,
+  "lon": 19.9166280
+},
+{
+  "type": "node",
+  "id": 264342661,
+  "lat": 50.0656369,
+  "lon": 19.9169700
+},
+{
+  "type": "node",
+  "id": 264342680,
+  "lat": 50.0651576,
+  "lon": 19.9166810
+},
+{
+  "type": "node",
+  "id": 264342689,
+  "lat": 50.0640693,
+  "lon": 19.9226264
+},
+{
+  "type": "node",
+  "id": 264342692,
+  "lat": 50.0639717,
+  "lon": 19.9225964
+},
+{
+  "type": "node",
+  "id": 266695295,
+  "lat": 50.0620585,
+  "lon": 19.9213783
+},
+{
+  "type": "node",
+  "id": 266695296,
+  "lat": 50.0610620,
+  "lon": 19.9215572
+},
+{
+  "type": "node",
+  "id": 266695297,
+  "lat": 50.0597694,
+  "lon": 19.9206793
+},
+{
+  "type": "node",
+  "id": 273535636,
+  "lat": 50.0633130,
+  "lon": 19.9211477
+},
+{
+  "type": "node",
+  "id": 273535638,
+  "lat": 50.0641798,
+  "lon": 19.9211868
+},
+{
+  "type": "node",
+  "id": 273535641,
+  "lat": 50.0634530,
+  "lon": 19.9211582
+},
+{
+  "type": "node",
+  "id": 273535644,
+  "lat": 50.0608110,
+  "lon": 19.9213631
+},
+{
+  "type": "node",
+  "id": 273536006,
+  "lat": 50.0643590,
+  "lon": 19.9199773
+},
+{
+  "type": "node",
+  "id": 273536012,
+  "lat": 50.0642345,
+  "lon": 19.9208398
+},
+{
+  "type": "node",
+  "id": 277927156,
+  "lat": 50.0646037,
+  "lon": 19.9186116
+},
+{
+  "type": "node",
+  "id": 277931842,
+  "lat": 50.0602084,
+  "lon": 19.9178224
+},
+{
+  "type": "node",
+  "id": 288711047,
+  "lat": 50.0599067,
+  "lon": 19.9207635
+},
+{
+  "type": "node",
+  "id": 331857693,
+  "lat": 50.0645989,
+  "lon": 19.9191152
+},
+{
+  "type": "node",
+  "id": 566168708,
+  "lat": 50.0643344,
+  "lon": 19.9208723
+},
+{
+  "type": "node",
+  "id": 566168739,
+  "lat": 50.0645562,
+  "lon": 19.9193812
+},
+{
+  "type": "node",
+  "id": 578254793,
+  "lat": 50.0642870,
+  "lon": 19.9211919
+},
+{
+  "type": "node",
+  "id": 618318831,
+  "lat": 50.0601710,
+  "lon": 19.9209360
+},
+{
+  "type": "node",
+  "id": 1305803937,
+  "lat": 50.0598389,
+  "lon": 19.9207197
+},
+{
+  "type": "node",
+  "id": 1305803953,
+  "lat": 50.0598617,
+  "lon": 19.9207330
+},
+{
+  "type": "node",
+  "id": 1919045707,
+  "lat": 50.0656728,
+  "lon": 19.9168206
+},
+{
+  "type": "node",
+  "id": 1926258852,
+  "lat": 50.0600555,
+  "lon": 19.9208555
+},
+{
+  "type": "node",
+  "id": 2225769051,
+  "lat": 50.0647019,
+  "lon": 19.9186663
+},
+{
+  "type": "node",
+  "id": 2413828440,
+  "lat": 50.0645444,
+  "lon": 19.9188499
+},
+{
+  "type": "node",
+  "id": 2413828441,
+  "lat": 50.0646462,
+  "lon": 19.9189090
+},
+{
+  "type": "node",
+  "id": 2423244278,
+  "lat": 50.0598563,
+  "lon": 19.9201160
+},
+{
+  "type": "node",
+  "id": 2485578312,
+  "lat": 50.0639663,
+  "lon": 19.9226352
+},
+{
+  "type": "node",
+  "id": 2489560358,
+  "lat": 50.0639587,
+  "lon": 19.9226917
+},
+{
+  "type": "node",
+  "id": 2489560360,
+  "lat": 50.0640560,
+  "lon": 19.9227216
+},
+{
+  "type": "node",
+  "id": 2499463023,
+  "lat": 50.0652203,
+  "lon": 19.9167183
+},
+{
+  "type": "node",
+  "id": 2541583432,
+  "lat": 50.0644700,
+  "lon": 19.9192419
+},
+{
+  "type": "node",
+  "id": 2591447065,
+  "lat": 50.0621738,
+  "lon": 19.9213556
+},
+{
+  "type": "node",
+  "id": 2595727839,
+  "lat": 50.0619764,
+  "lon": 19.9213952
+},
+{
+  "type": "node",
+  "id": 3455726994,
+  "lat": 50.0655693,
+  "lon": 19.9169291
+},
+{
+  "type": "node",
+  "id": 3754628389,
+  "lat": 50.0597798,
+  "lon": 19.9206056
+},
+{
+  "type": "node",
+  "id": 4017869145,
+  "lat": 50.0623560,
+  "lon": 19.9213224
+},
+{
+  "type": "node",
+  "id": 4017869152,
+  "lat": 50.0642813,
+  "lon": 19.9212295
+},
+{
+  "type": "node",
+  "id": 5018713705,
+  "lat": 50.0650198,
+  "lon": 19.9168109
+},
+{
+  "type": "node",
+  "id": 5018713706,
+  "lat": 50.0651159,
+  "lon": 19.9168627
+},
+{
+  "type": "node",
+  "id": 206351247,
+  "lat": 50.0713587,
+  "lon": 19.9133838
+},
+{
+  "type": "node",
+  "id": 226826892,
+  "lat": 50.0688109,
+  "lon": 19.9099441
+},
+{
+  "type": "node",
+  "id": 226826956,
+  "lat": 50.0687750,
+  "lon": 19.9104933
+},
+{
+  "type": "node",
+  "id": 226826983,
+  "lat": 50.0687561,
+  "lon": 19.9107081
+},
+{
+  "type": "node",
+  "id": 226827051,
+  "lat": 50.0687152,
+  "lon": 19.9112232
+},
+{
+  "type": "node",
+  "id": 226841632,
+  "lat": 50.0712164,
+  "lon": 19.9145056
+},
+{
+  "type": "node",
+  "id": 236160006,
+  "lat": 50.0676446,
+  "lon": 19.9144835
+},
+{
+  "type": "node",
+  "id": 236161566,
+  "lat": 50.0687465,
+  "lon": 19.9117705
+},
+{
+  "type": "node",
+  "id": 236162879,
+  "lat": 50.0691161,
+  "lon": 19.9103716
+},
+{
+  "type": "node",
+  "id": 236163115,
+  "lat": 50.0676004,
+  "lon": 19.9147145
+},
+{
+  "type": "node",
+  "id": 236163150,
+  "lat": 50.0690180,
+  "lon": 19.9109512
+},
+{
+  "type": "node",
+  "id": 236163539,
+  "lat": 50.0677459,
+  "lon": 19.9141896
+},
+{
+  "type": "node",
+  "id": 236164762,
+  "lat": 50.0689349,
+  "lon": 19.9112650
+},
+{
+  "type": "node",
+  "id": 236164926,
+  "lat": 50.0675362,
+  "lon": 19.9152752
+},
+{
+  "type": "node",
+  "id": 236306981,
+  "lat": 50.0679602,
+  "lon": 19.9136691
+},
+{
+  "type": "node",
+  "id": 240977614,
+  "lat": 50.0663331,
+  "lon": 19.9103469
+},
+{
+  "type": "node",
+  "id": 264107312,
+  "lat": 50.0673609,
+  "lon": 19.9143630
+},
+{
+  "type": "node",
+  "id": 264107313,
+  "lat": 50.0669990,
+  "lon": 19.9141999
+},
+{
+  "type": "node",
+  "id": 264107314,
+  "lat": 50.0666640,
+  "lon": 19.9141353
+},
+{
+  "type": "node",
+  "id": 264342675,
+  "lat": 50.0662774,
+  "lon": 19.9142921
+},
+{
+  "type": "node",
+  "id": 264342682,
+  "lat": 50.0662937,
+  "lon": 19.9140786
+},
+{
+  "type": "node",
+  "id": 264345061,
+  "lat": 50.0674527,
+  "lon": 19.9144019
+},
+{
+  "type": "node",
+  "id": 281472862,
+  "lat": 50.0719325,
+  "lon": 19.9135424
+},
+{
+  "type": "node",
+  "id": 281473146,
+  "lat": 50.0723225,
+  "lon": 19.9137201
+},
+{
+  "type": "node",
+  "id": 281474609,
+  "lat": 50.0684230,
+  "lon": 19.9146081
+},
+{
+  "type": "node",
+  "id": 281474610,
+  "lat": 50.0685189,
+  "lon": 19.9138167
+},
+{
+  "type": "node",
+  "id": 281474691,
+  "lat": 50.0686676,
+  "lon": 19.9153155
+},
+{
+  "type": "node",
+  "id": 281474693,
+  "lat": 50.0710263,
+  "lon": 19.9159281
+},
+{
+  "type": "node",
+  "id": 335603806,
+  "lat": 50.0714484,
+  "lon": 19.9124805
+},
+{
+  "type": "node",
+  "id": 470618562,
+  "lat": 50.0724025,
+  "lon": 19.9152084
+},
+{
+  "type": "node",
+  "id": 565534705,
+  "lat": 50.0712448,
+  "lon": 19.9143069
+},
+{
+  "type": "node",
+  "id": 815569099,
+  "lat": 50.0683048,
+  "lon": 19.9128497
+},
+{
+  "type": "node",
+  "id": 1235329348,
+  "lat": 50.0714904,
+  "lon": 19.9121047
+},
+{
+  "type": "node",
+  "id": 1317839351,
+  "lat": 50.0698309,
+  "lon": 19.9155496
+},
+{
+  "type": "node",
+  "id": 1317839369,
+  "lat": 50.0692933,
+  "lon": 19.9140191
+},
+{
+  "type": "node",
+  "id": 1345789845,
+  "lat": 50.0694762,
+  "lon": 19.9140607
+},
+{
+  "type": "node",
+  "id": 1345789846,
+  "lat": 50.0680210,
+  "lon": 19.9135118
+},
+{
+  "type": "node",
+  "id": 1448506795,
+  "lat": 50.0704247,
+  "lon": 19.9142901
+},
+{
+  "type": "node",
+  "id": 1470370978,
+  "lat": 50.0680515,
+  "lon": 19.9136948
+},
+{
+  "type": "node",
+  "id": 1470371058,
+  "lat": 50.0675512,
+  "lon": 19.9144425
+},
+{
+  "type": "node",
+  "id": 1470371145,
+  "lat": 50.0685496,
+  "lon": 19.9122324
+},
+{
+  "type": "node",
+  "id": 1470375288,
+  "lat": 50.0707558,
+  "lon": 19.9105564
+},
+{
+  "type": "node",
+  "id": 1470375289,
+  "lat": 50.0705085,
+  "lon": 19.9104731
+},
+{
+  "type": "node",
+  "id": 1470375291,
+  "lat": 50.0706773,
+  "lon": 19.9105348
+},
+{
+  "type": "node",
+  "id": 1691292881,
+  "lat": 50.0688470,
+  "lon": 19.9115138
+},
+{
+  "type": "node",
+  "id": 1755257730,
+  "lat": 50.0697944,
+  "lon": 19.9160318
+},
+{
+  "type": "node",
+  "id": 1755262267,
+  "lat": 50.0702782,
+  "lon": 19.9156365
+},
+{
+  "type": "node",
+  "id": 1755264033,
+  "lat": 50.0691209,
+  "lon": 19.9154051
+},
+{
+  "type": "node",
+  "id": 1755264034,
+  "lat": 50.0692161,
+  "lon": 19.9139986
+},
+{
+  "type": "node",
+  "id": 1782223336,
+  "lat": 50.0675645,
+  "lon": 19.9149679
+},
+{
+  "type": "node",
+  "id": 1782223477,
+  "lat": 50.0687872,
+  "lon": 19.9102324
+},
+{
+  "type": "node",
+  "id": 1875137000,
+  "lat": 50.0722840,
+  "lon": 19.9151361
+},
+{
+  "type": "node",
+  "id": 1876117416,
+  "lat": 50.0725586,
+  "lon": 19.9153053
+},
+{
+  "type": "node",
+  "id": 1876117442,
+  "lat": 50.0715665,
+  "lon": 19.9112106
+},
+{
+  "type": "node",
+  "id": 1876117454,
+  "lat": 50.0701444,
+  "lon": 19.9142216
+},
+{
+  "type": "node",
+  "id": 1878082160,
+  "lat": 50.0716622,
+  "lon": 19.9147640
+},
+{
+  "type": "node",
+  "id": 1883217642,
+  "lat": 50.0684241,
+  "lon": 19.9137939
+},
+{
+  "type": "node",
+  "id": 1883217643,
+  "lat": 50.0687694,
+  "lon": 19.9138768
+},
+{
+  "type": "node",
+  "id": 1909896163,
+  "lat": 50.0713821,
+  "lon": 19.9131256
+},
+{
+  "type": "node",
+  "id": 1928222998,
+  "lat": 50.0711912,
+  "lon": 19.9146757
+},
+{
+  "type": "node",
+  "id": 2405897331,
+  "lat": 50.0684998,
+  "lon": 19.9139738
+},
+{
+  "type": "node",
+  "id": 2453169969,
+  "lat": 50.0725244,
+  "lon": 19.9138379
+},
+{
+  "type": "node",
+  "id": 2487544385,
+  "lat": 50.0664036,
+  "lon": 19.9098839
+},
+{
+  "type": "node",
+  "id": 2501383119,
+  "lat": 50.0662909,
+  "lon": 19.9141220
+},
+{
+  "type": "node",
+  "id": 2543050112,
+  "lat": 50.0711460,
+  "lon": 19.9144707
+},
+{
+  "type": "node",
+  "id": 2543050118,
+  "lat": 50.0713209,
+  "lon": 19.9145619
+},
+{
+  "type": "node",
+  "id": 2543050122,
+  "lat": 50.0714497,
+  "lon": 19.9134107
+},
+{
+  "type": "node",
+  "id": 2557144952,
+  "lat": 50.0717559,
+  "lon": 19.9134944
+},
+{
+  "type": "node",
+  "id": 2557144956,
+  "lat": 50.0719613,
+  "lon": 19.9135522
+},
+{
+  "type": "node",
+  "id": 2566086780,
+  "lat": 50.0673968,
+  "lon": 19.9143771
+},
+{
+  "type": "node",
+  "id": 2597945395,
+  "lat": 50.0710510,
+  "lon": 19.9157248
+},
+{
+  "type": "node",
+  "id": 2597945396,
+  "lat": 50.0710584,
+  "lon": 19.9156599
+},
+{
+  "type": "node",
+  "id": 2904274339,
+  "lat": 50.0662684,
+  "lon": 19.9144718
+},
+{
+  "type": "node",
+  "id": 2984821473,
+  "lat": 50.0704990,
+  "lon": 19.9105916
+},
+{
+  "type": "node",
+  "id": 2990656980,
+  "lat": 50.0713464,
+  "lon": 19.9134756
+},
+{
+  "type": "node",
+  "id": 3044475375,
+  "lat": 50.0710446,
+  "lon": 19.9157804
+},
+{
+  "type": "node",
+  "id": 3044475376,
+  "lat": 50.0679479,
+  "lon": 19.9151696
+},
+{
+  "type": "node",
+  "id": 3044475377,
+  "lat": 50.0679014,
+  "lon": 19.9151854
+},
+{
+  "type": "node",
+  "id": 3044475379,
+  "lat": 50.0678882,
+  "lon": 19.9152735
+},
+{
+  "type": "node",
+  "id": 3044475380,
+  "lat": 50.0678706,
+  "lon": 19.9160781
+},
+{
+  "type": "node",
+  "id": 3305763205,
+  "lat": 50.0675377,
+  "lon": 19.9156008
+},
+{
+  "type": "node",
+  "id": 3376781927,
+  "lat": 50.0683423,
+  "lon": 19.9152468
+},
+{
+  "type": "node",
+  "id": 3376781951,
+  "lat": 50.0701540,
+  "lon": 19.9156124
+},
+{
+  "type": "node",
+  "id": 3376781969,
+  "lat": 50.0709780,
+  "lon": 19.9157679
+},
+{
+  "type": "node",
+  "id": 3377146603,
+  "lat": 50.0686673,
+  "lon": 19.9151509
+},
+{
+  "type": "node",
+  "id": 3377146604,
+  "lat": 50.0686732,
+  "lon": 19.9152316
+},
+{
+  "type": "node",
+  "id": 3461650337,
+  "lat": 50.0716055,
+  "lon": 19.9108487
+},
+{
+  "type": "node",
+  "id": 3469112806,
+  "lat": 50.0712676,
+  "lon": 19.9141019
+},
+{
+  "type": "node",
+  "id": 3469112808,
+  "lat": 50.0712849,
+  "lon": 19.9139758
+},
+{
+  "type": "node",
+  "id": 3469112809,
+  "lat": 50.0713246,
+  "lon": 19.9136595
+},
+{
+  "type": "node",
+  "id": 3491043511,
+  "lat": 50.0687017,
+  "lon": 19.9113885
+},
+{
+  "type": "node",
+  "id": 3997598389,
+  "lat": 50.0715579,
+  "lon": 19.9108314
+},
+{
+  "type": "node",
+  "id": 4567172332,
+  "lat": 50.0709805,
+  "lon": 19.9163529
+},
+{
+  "type": "node",
+  "id": 5018713646,
+  "lat": 50.0662674,
+  "lon": 19.9107671
+},
+{
+  "type": "node",
+  "id": 5037691926,
+  "lat": 50.0716010,
+  "lon": 19.9108902
+},
+{
+  "type": "node",
+  "id": 5037691948,
+  "lat": 50.0712569,
+  "lon": 19.9107282
+},
+{
+  "type": "node",
+  "id": 5037691950,
+  "lat": 50.0707696,
+  "lon": 19.9104423
+},
+{
+  "type": "node",
+  "id": 5037691951,
+  "lat": 50.0705436,
+  "lon": 19.9101903
+},
+{
+  "type": "node",
+  "id": 5174661336,
+  "lat": 50.0678855,
+  "lon": 19.9153965
+},
+{
+  "type": "node",
+  "id": 5174661337,
+  "lat": 50.0679205,
+  "lon": 19.9151789
+},
+{
+  "type": "node",
+  "id": 5216106595,
+  "lat": 50.0675535,
+  "lon": 19.9150877
+},
+{
+  "type": "node",
+  "id": 5695872693,
+  "lat": 50.0716197,
+  "lon": 19.9107567
+},
+{
+  "type": "node",
+  "id": 206350833,
+  "lat": 50.0709586,
+  "lon": 19.9166515
+},
+{
+  "type": "node",
+  "id": 206350841,
+  "lat": 50.0695352,
+  "lon": 19.9222475
+},
+{
+  "type": "node",
+  "id": 226009408,
+  "lat": 50.0671761,
+  "lon": 19.9212987
+},
+{
+  "type": "node",
+  "id": 226009421,
+  "lat": 50.0677974,
+  "lon": 19.9214431
+},
+{
+  "type": "node",
+  "id": 236160072,
+  "lat": 50.0675762,
+  "lon": 19.9181620
+},
+{
+  "type": "node",
+  "id": 236160527,
+  "lat": 50.0676098,
+  "lon": 19.9177487
+},
+{
+  "type": "node",
+  "id": 236163144,
+  "lat": 50.0676172,
+  "lon": 19.9175390
+},
+{
+  "type": "node",
+  "id": 240985580,
+  "lat": 50.0726981,
+  "lon": 19.9210960
+},
+{
+  "type": "node",
+  "id": 266684908,
+  "lat": 50.0722215,
+  "lon": 19.9224782
+},
+{
+  "type": "node",
+  "id": 267538293,
+  "lat": 50.0704748,
+  "lon": 19.9186802
+},
+{
+  "type": "node",
+  "id": 267538559,
+  "lat": 50.0698678,
+  "lon": 19.9208833
+},
+{
+  "type": "node",
+  "id": 267538591,
+  "lat": 50.0696868,
+  "lon": 19.9207560
+},
+{
+  "type": "node",
+  "id": 267538595,
+  "lat": 50.0669934,
+  "lon": 19.9203659
+},
+{
+  "type": "node",
+  "id": 273461465,
+  "lat": 50.0683789,
+  "lon": 19.9206357
+},
+{
+  "type": "node",
+  "id": 273461466,
+  "lat": 50.0683923,
+  "lon": 19.9208255
+},
+{
+  "type": "node",
+  "id": 273461467,
+  "lat": 50.0683986,
+  "lon": 19.9210964
+},
+{
+  "type": "node",
+  "id": 273461469,
+  "lat": 50.0677319,
+  "lon": 19.9182035
+},
+{
+  "type": "node",
+  "id": 280850515,
+  "lat": 50.0671339,
+  "lon": 19.9213326
+},
+{
+  "type": "node",
+  "id": 280850516,
+  "lat": 50.0669680,
+  "lon": 19.9223838
+},
+{
+  "type": "node",
+  "id": 280850518,
+  "lat": 50.0668373,
+  "lon": 19.9225728
+},
+{
+  "type": "node",
+  "id": 280850519,
+  "lat": 50.0667969,
+  "lon": 19.9228724
+},
+{
+  "type": "node",
+  "id": 280850520,
+  "lat": 50.0675858,
+  "lon": 19.9222485
+},
+{
+  "type": "node",
+  "id": 280850522,
+  "lat": 50.0680772,
+  "lon": 19.9223729
+},
+{
+  "type": "node",
+  "id": 280858336,
+  "lat": 50.0666662,
+  "lon": 19.9228361
+},
+{
+  "type": "node",
+  "id": 280870515,
+  "lat": 50.0670469,
+  "lon": 19.9216204
+},
+{
+  "type": "node",
+  "id": 280870516,
+  "lat": 50.0667116,
+  "lon": 19.9214203
+},
+{
+  "type": "node",
+  "id": 377778944,
+  "lat": 50.0675892,
+  "lon": 19.9179993
+},
+{
+  "type": "node",
+  "id": 495649040,
+  "lat": 50.0689448,
+  "lon": 19.9183386
+},
+{
+  "type": "node",
+  "id": 495649049,
+  "lat": 50.0699440,
+  "lon": 19.9174621
+},
+{
+  "type": "node",
+  "id": 495649052,
+  "lat": 50.0690013,
+  "lon": 19.9173355
+},
+{
+  "type": "node",
+  "id": 495649054,
+  "lat": 50.0679219,
+  "lon": 19.9172032
+},
+{
+  "type": "node",
+  "id": 815569058,
+  "lat": 50.0676031,
+  "lon": 19.9172659
+},
+{
+  "type": "node",
+  "id": 1079816508,
+  "lat": 50.0702453,
+  "lon": 19.9211504
+},
+{
+  "type": "node",
+  "id": 1347653771,
+  "lat": 50.0673624,
+  "lon": 19.9189982
+},
+{
+  "type": "node",
+  "id": 1347653772,
+  "lat": 50.0668246,
+  "lon": 19.9186083
+},
+{
+  "type": "node",
+  "id": 1470371036,
+  "lat": 50.0664542,
+  "lon": 19.9227774
+},
+{
+  "type": "node",
+  "id": 1470371042,
+  "lat": 50.0676659,
+  "lon": 19.9181922
+},
+{
+  "type": "node",
+  "id": 1642529063,
+  "lat": 50.0710917,
+  "lon": 19.9217976
+},
+{
+  "type": "node",
+  "id": 1642529074,
+  "lat": 50.0717672,
+  "lon": 19.9195259
+},
+{
+  "type": "node",
+  "id": 1642529083,
+  "lat": 50.0721582,
+  "lon": 19.9226607
+},
+{
+  "type": "node",
+  "id": 1676326498,
+  "lat": 50.0663448,
+  "lon": 19.9227470
+},
+{
+  "type": "node",
+  "id": 1755261371,
+  "lat": 50.0708573,
+  "lon": 19.9170898
+},
+{
+  "type": "node",
+  "id": 1755261373,
+  "lat": 50.0709636,
+  "lon": 19.9165098
+},
+{
+  "type": "node",
+  "id": 1755264035,
+  "lat": 50.0691877,
+  "lon": 19.9194083
+},
+{
+  "type": "node",
+  "id": 1755264036,
+  "lat": 50.0699061,
+  "lon": 19.9195062
+},
+{
+  "type": "node",
+  "id": 1755264037,
+  "lat": 50.0701661,
+  "lon": 19.9196803
+},
+{
+  "type": "node",
+  "id": 1810737028,
+  "lat": 50.0670043,
+  "lon": 19.9220349
+},
+{
+  "type": "node",
+  "id": 1858434376,
+  "lat": 50.0712228,
+  "lon": 19.9218898
+},
+{
+  "type": "node",
+  "id": 1870103535,
+  "lat": 50.0703845,
+  "lon": 19.9185265
+},
+{
+  "type": "node",
+  "id": 1870103539,
+  "lat": 50.0718770,
+  "lon": 19.9195952
+},
+{
+  "type": "node",
+  "id": 1875136997,
+  "lat": 50.0720955,
+  "lon": 19.9173767
+},
+{
+  "type": "node",
+  "id": 1875707762,
+  "lat": 50.0663964,
+  "lon": 19.9225772
+},
+{
+  "type": "node",
+  "id": 1876568929,
+  "lat": 50.0722923,
+  "lon": 19.9175086
+},
+{
+  "type": "node",
+  "id": 1876633335,
+  "lat": 50.0719891,
+  "lon": 19.9196703
+},
+{
+  "type": "node",
+  "id": 1876754727,
+  "lat": 50.0711720,
+  "lon": 19.9167654
+},
+{
+  "type": "node",
+  "id": 1876754735,
+  "lat": 50.0724549,
+  "lon": 19.9217941
+},
+{
+  "type": "node",
+  "id": 1876754757,
+  "lat": 50.0666636,
+  "lon": 19.9216056
+},
+{
+  "type": "node",
+  "id": 1878103659,
+  "lat": 50.0672365,
+  "lon": 19.9194735
+},
+{
+  "type": "node",
+  "id": 1882892447,
+  "lat": 50.0675842,
+  "lon": 19.9168009
+},
+{
+  "type": "node",
+  "id": 1926368268,
+  "lat": 50.0704390,
+  "lon": 19.9185815
+},
+{
+  "type": "node",
+  "id": 1928240912,
+  "lat": 50.0694748,
+  "lon": 19.9226144
+},
+{
+  "type": "node",
+  "id": 2225760121,
+  "lat": 50.0673053,
+  "lon": 19.9189624
+},
+{
+  "type": "node",
+  "id": 2472200679,
+  "lat": 50.0683860,
+  "lon": 19.9207365
+},
+{
+  "type": "node",
+  "id": 2560640148,
+  "lat": 50.0668003,
+  "lon": 19.9228400
+},
+{
+  "type": "node",
+  "id": 2564329470,
+  "lat": 50.0669691,
+  "lon": 19.9204812
+},
+{
+  "type": "node",
+  "id": 2564329471,
+  "lat": 50.0669640,
+  "lon": 19.9186925
+},
+{
+  "type": "node",
+  "id": 2564329472,
+  "lat": 50.0670337,
+  "lon": 19.9187984
+},
+{
+  "type": "node",
+  "id": 2564329474,
+  "lat": 50.0671011,
+  "lon": 19.9203991
+},
+{
+  "type": "node",
+  "id": 2671430385,
+  "lat": 50.0709438,
+  "lon": 19.9167605
+},
+{
+  "type": "node",
+  "id": 2671430399,
+  "lat": 50.0710324,
+  "lon": 19.9166894
+},
+{
+  "type": "node",
+  "id": 2720618678,
+  "lat": 50.0705487,
+  "lon": 19.9187334
+},
+{
+  "type": "node",
+  "id": 2720618712,
+  "lat": 50.0681904,
+  "lon": 19.9227563
+},
+{
+  "type": "node",
+  "id": 2720618724,
+  "lat": 50.0685581,
+  "lon": 19.9216550
+},
+{
+  "type": "node",
+  "id": 2720618781,
+  "lat": 50.0683499,
+  "lon": 19.9208158
+},
+{
+  "type": "node",
+  "id": 2720618791,
+  "lat": 50.0678844,
+  "lon": 19.9217352
+},
+{
+  "type": "node",
+  "id": 2720618897,
+  "lat": 50.0699169,
+  "lon": 19.9206781
+},
+{
+  "type": "node",
+  "id": 2720618900,
+  "lat": 50.0698162,
+  "lon": 19.9208253
+},
+{
+  "type": "node",
+  "id": 2720618927,
+  "lat": 50.0700049,
+  "lon": 19.9203040
+},
+{
+  "type": "node",
+  "id": 2720618941,
+  "lat": 50.0704331,
+  "lon": 19.9187909
+},
+{
+  "type": "node",
+  "id": 2720618949,
+  "lat": 50.0705243,
+  "lon": 19.9184623
+},
+{
+  "type": "node",
+  "id": 2720618966,
+  "lat": 50.0682181,
+  "lon": 19.9228499
+},
+{
+  "type": "node",
+  "id": 2720619002,
+  "lat": 50.0705703,
+  "lon": 19.9214144
+},
+{
+  "type": "node",
+  "id": 2720619007,
+  "lat": 50.0705067,
+  "lon": 19.9213609
+},
+{
+  "type": "node",
+  "id": 2720619027,
+  "lat": 50.0701216,
+  "lon": 19.9196455
+},
+{
+  "type": "node",
+  "id": 2720619060,
+  "lat": 50.0695936,
+  "lon": 19.9219689
+},
+{
+  "type": "node",
+  "id": 2904879452,
+  "lat": 50.0677384,
+  "lon": 19.9183256
+},
+{
+  "type": "node",
+  "id": 3019160348,
+  "lat": 50.0669474,
+  "lon": 19.9224353
+},
+{
+  "type": "node",
+  "id": 3019160349,
+  "lat": 50.0670331,
+  "lon": 19.9217597
+},
+{
+  "type": "node",
+  "id": 3019160351,
+  "lat": 50.0670689,
+  "lon": 19.9214736
+},
+{
+  "type": "node",
+  "id": 3019160353,
+  "lat": 50.0671056,
+  "lon": 19.9213773
+},
+{
+  "type": "node",
+  "id": 3019160356,
+  "lat": 50.0672280,
+  "lon": 19.9212861
+},
+{
+  "type": "node",
+  "id": 3019160364,
+  "lat": 50.0683952,
+  "lon": 19.9209123
+},
+{
+  "type": "node",
+  "id": 3019160365,
+  "lat": 50.0684502,
+  "lon": 19.9208332
+},
+{
+  "type": "node",
+  "id": 3019160373,
+  "lat": 50.0698477,
+  "lon": 19.9209628
+},
+{
+  "type": "node",
+  "id": 3019160374,
+  "lat": 50.0699237,
+  "lon": 19.9209296
+},
+{
+  "type": "node",
+  "id": 3376781942,
+  "lat": 50.0697481,
+  "lon": 19.9166919
+},
+{
+  "type": "node",
+  "id": 3376781943,
+  "lat": 50.0697690,
+  "lon": 19.9163938
+},
+{
+  "type": "node",
+  "id": 3400342043,
+  "lat": 50.0672868,
+  "lon": 19.9189525
+},
+{
+  "type": "node",
+  "id": 3802908426,
+  "lat": 50.0665565,
+  "lon": 19.9228057
+},
+{
+  "type": "node",
+  "id": 4017869156,
+  "lat": 50.0679413,
+  "lon": 19.9182268
+},
+{
+  "type": "node",
+  "id": 4244762395,
+  "lat": 50.0700910,
+  "lon": 19.9196257
+},
+{
+  "type": "node",
+  "id": 4244762396,
+  "lat": 50.0699746,
+  "lon": 19.9195505
+},
+{
+  "type": "node",
+  "id": 4244767478,
+  "lat": 50.0695376,
+  "lon": 19.9194580
+},
+{
+  "type": "node",
+  "id": 4244767488,
+  "lat": 50.0693874,
+  "lon": 19.9194358
+},
+{
+  "type": "node",
+  "id": 4244767593,
+  "lat": 50.0697837,
+  "lon": 19.9194895
+},
+{
+  "type": "node",
+  "id": 4244767596,
+  "lat": 50.0693636,
+  "lon": 19.9194323
+},
+{
+  "type": "node",
+  "id": 4244767597,
+  "lat": 50.0697042,
+  "lon": 19.9194787
+},
+{
+  "type": "node",
+  "id": 4244767598,
+  "lat": 50.0698883,
+  "lon": 19.9195038
+},
+{
+  "type": "node",
+  "id": 4447395467,
+  "lat": 50.0690909,
+  "lon": 19.9183664
+},
+{
+  "type": "node",
+  "id": 4447395468,
+  "lat": 50.0703088,
+  "lon": 19.9185146
+},
+{
+  "type": "node",
+  "id": 4447398212,
+  "lat": 50.0706768,
+  "lon": 19.9188169
+},
+{
+  "type": "node",
+  "id": 4447398213,
+  "lat": 50.0716707,
+  "lon": 19.9194702
+},
+{
+  "type": "node",
+  "id": 4447398214,
+  "lat": 50.0717232,
+  "lon": 19.9195014
+},
+{
+  "type": "node",
+  "id": 4860982200,
+  "lat": 50.0721888,
+  "lon": 19.9225815
+},
+{
+  "type": "node",
+  "id": 5092615172,
+  "lat": 50.0673358,
+  "lon": 19.9190987
+},
+{
+  "type": "node",
+  "id": 5152060328,
+  "lat": 50.0701146,
+  "lon": 19.9198794
+},
+{
+  "type": "node",
+  "id": 5439441807,
+  "lat": 50.0669123,
+  "lon": 19.9206884
+},
+{
+  "type": "node",
+  "id": 5439441808,
+  "lat": 50.0664347,
+  "lon": 19.9224378
+},
+{
+  "type": "node",
+  "id": 5439441809,
+  "lat": 50.0670737,
+  "lon": 19.9200711
+},
+{
+  "type": "node",
+  "id": 5763201461,
+  "lat": 50.0689474,
+  "lon": 19.9182928
+},
+{
+  "type": "node",
+  "id": 5865482458,
+  "lat": 50.0697609,
+  "lon": 19.9207785
+},
+{
+  "type": "node",
+  "id": 5865487025,
+  "lat": 50.0695530,
+  "lon": 19.9221626
+},
+{
+  "type": "node",
+  "id": 5926931608,
+  "lat": 50.0710507,
+  "lon": 19.9217675
+},
+{
+  "type": "node",
+  "id": 5926931609,
+  "lat": 50.0720812,
+  "lon": 19.9197331
+},
+{
+  "type": "node",
+  "id": 5926931610,
+  "lat": 50.0722366,
+  "lon": 19.9174713
+},
+{
+  "type": "node",
+  "id": 281473036,
+  "lat": 50.0728172,
+  "lon": 19.9096260
+},
+{
+  "type": "node",
+  "id": 226828656,
+  "lat": 50.0729803,
+  "lon": 19.9155593
+},
+{
+  "type": "node",
+  "id": 1876568941,
+  "lat": 50.0731632,
+  "lon": 19.9142051
+},
+{
+  "type": "node",
+  "id": 1876568972,
+  "lat": 50.0728266,
+  "lon": 19.9154643
+},
+{
+  "type": "node",
+  "id": 31349968,
+  "lat": 50.0630262,
+  "lon": 19.9232956
+},
+{
+  "type": "node",
+  "id": 207437138,
+  "lat": 50.0657825,
+  "lon": 19.9247981
+},
+{
+  "type": "node",
+  "id": 207437974,
+  "lat": 50.0626913,
+  "lon": 19.9232133
+},
+{
+  "type": "node",
+  "id": 207437975,
+  "lat": 50.0624438,
+  "lon": 19.9232295
+},
+{
+  "type": "node",
+  "id": 236150723,
+  "lat": 50.0648516,
+  "lon": 19.9244253
+},
+{
+  "type": "node",
+  "id": 236150780,
+  "lat": 50.0627828,
+  "lon": 19.9237322
+},
+{
+  "type": "node",
+  "id": 236151410,
+  "lat": 50.0625386,
+  "lon": 19.9237087
+},
+{
+  "type": "node",
+  "id": 236151783,
+  "lat": 50.0638173,
+  "lon": 19.9240608
+},
+{
+  "type": "node",
+  "id": 236151807,
+  "lat": 50.0622572,
+  "lon": 19.9237442
+},
+{
+  "type": "node",
+  "id": 236313351,
+  "lat": 50.0659398,
+  "lon": 19.9243658
+},
+{
+  "type": "node",
+  "id": 257659338,
+  "lat": 50.0634074,
+  "lon": 19.9280490
+},
+{
+  "type": "node",
+  "id": 262201255,
+  "lat": 50.0660515,
+  "lon": 19.9279741
+},
+{
+  "type": "node",
+  "id": 262201256,
+  "lat": 50.0652943,
+  "lon": 19.9271591
+},
+{
+  "type": "node",
+  "id": 262210524,
+  "lat": 50.0638776,
+  "lon": 19.9236128
+},
+{
+  "type": "node",
+  "id": 265517200,
+  "lat": 50.0655360,
+  "lon": 19.9242250
+},
+{
+  "type": "node",
+  "id": 266695290,
+  "lat": 50.0632800,
+  "lon": 19.9276365
+},
+{
+  "type": "node",
+  "id": 266695294,
+  "lat": 50.0621873,
+  "lon": 19.9232885
+},
+{
+  "type": "node",
+  "id": 266696720,
+  "lat": 50.0638690,
+  "lon": 19.9277735
+},
+{
+  "type": "node",
+  "id": 266696722,
+  "lat": 50.0637997,
+  "lon": 19.9243303
+},
+{
+  "type": "node",
+  "id": 268800770,
+  "lat": 50.0638511,
+  "lon": 19.9266401
+},
+{
+  "type": "node",
+  "id": 268800771,
+  "lat": 50.0629993,
+  "lon": 19.9268093
+},
+{
+  "type": "node",
+  "id": 268800772,
+  "lat": 50.0625617,
+  "lon": 19.9252767
+},
+{
+  "type": "node",
+  "id": 268800773,
+  "lat": 50.0613948,
+  "lon": 19.9258691
+},
+{
+  "type": "node",
+  "id": 268800774,
+  "lat": 50.0609748,
+  "lon": 19.9260060
+},
+{
+  "type": "node",
+  "id": 268800776,
+  "lat": 50.0603066,
+  "lon": 19.9270314
+},
+{
+  "type": "node",
+  "id": 273533237,
+  "lat": 50.0612135,
+  "lon": 19.9259089
+},
+{
+  "type": "node",
+  "id": 273533238,
+  "lat": 50.0617888,
+  "lon": 19.9256701
+},
+{
+  "type": "node",
+  "id": 277927169,
+  "lat": 50.0658760,
+  "lon": 19.9242032
+},
+{
+  "type": "node",
+  "id": 277927175,
+  "lat": 50.0659768,
+  "lon": 19.9242221
+},
+{
+  "type": "node",
+  "id": 280858344,
+  "lat": 50.0659506,
+  "lon": 19.9248720
+},
+{
+  "type": "node",
+  "id": 280858346,
+  "lat": 50.0660396,
+  "lon": 19.9244050
+},
+{
+  "type": "node",
+  "id": 280870518,
+  "lat": 50.0649598,
+  "lon": 19.9240225
+},
+{
+  "type": "node",
+  "id": 418150493,
+  "lat": 50.0637713,
+  "lon": 19.9235725
+},
+{
+  "type": "node",
+  "id": 418150494,
+  "lat": 50.0637228,
+  "lon": 19.9240264
+},
+{
+  "type": "node",
+  "id": 815569163,
+  "lat": 50.0627382,
+  "lon": 19.9232201
+},
+{
+  "type": "node",
+  "id": 1167933712,
+  "lat": 50.0644128,
+  "lon": 19.9238154
+},
+{
+  "type": "node",
+  "id": 1325703552,
+  "lat": 50.0631176,
+  "lon": 19.9238151
+},
+{
+  "type": "node",
+  "id": 1390071847,
+  "lat": 50.0638666,
+  "lon": 19.9275856
+},
+{
+  "type": "node",
+  "id": 1448506734,
+  "lat": 50.0656877,
+  "lon": 19.9247653
+},
+{
+  "type": "node",
+  "id": 1448506736,
+  "lat": 50.0657511,
+  "lon": 19.9242998
+},
+{
+  "type": "node",
+  "id": 1448506739,
+  "lat": 50.0660955,
+  "lon": 19.9244258
+},
+{
+  "type": "node",
+  "id": 1448935629,
+  "lat": 50.0623038,
+  "lon": 19.9232574
+},
+{
+  "type": "node",
+  "id": 1448935645,
+  "lat": 50.0638495,
+  "lon": 19.9234445
+},
+{
+  "type": "node",
+  "id": 1448935649,
+  "lat": 50.0639433,
+  "lon": 19.9234854
+},
+{
+  "type": "node",
+  "id": 1676074015,
+  "lat": 50.0657075,
+  "lon": 19.9252246
+},
+{
+  "type": "node",
+  "id": 1676326463,
+  "lat": 50.0662171,
+  "lon": 19.9230558
+},
+{
+  "type": "node",
+  "id": 1676326493,
+  "lat": 50.0660183,
+  "lon": 19.9236975
+},
+{
+  "type": "node",
+  "id": 1798898144,
+  "lat": 50.0656337,
+  "lon": 19.9247457
+},
+{
+  "type": "node",
+  "id": 1875729775,
+  "lat": 50.0658134,
+  "lon": 19.9244298
+},
+{
+  "type": "node",
+  "id": 1926258883,
+  "lat": 50.0610711,
+  "lon": 19.9259343
+},
+{
+  "type": "node",
+  "id": 1926258894,
+  "lat": 50.0639213,
+  "lon": 19.9240995
+},
+{
+  "type": "node",
+  "id": 1926258898,
+  "lat": 50.0639837,
+  "lon": 19.9236519
+},
+{
+  "type": "node",
+  "id": 1926332321,
+  "lat": 50.0623975,
+  "lon": 19.9237200
+},
+{
+  "type": "node",
+  "id": 1979987766,
+  "lat": 50.0661357,
+  "lon": 19.9279340
+},
+{
+  "type": "node",
+  "id": 2106196385,
+  "lat": 50.0658360,
+  "lon": 19.9243328
+},
+{
+  "type": "node",
+  "id": 2614641449,
+  "lat": 50.0629388,
+  "lon": 19.9266376
+},
+{
+  "type": "node",
+  "id": 2614641459,
+  "lat": 50.0633739,
+  "lon": 19.9279488
+},
+{
+  "type": "node",
+  "id": 2961496322,
+  "lat": 50.0656332,
+  "lon": 19.9255833
+},
+{
+  "type": "node",
+  "id": 3036688888,
+  "lat": 50.0631558,
+  "lon": 19.9272677
+},
+{
+  "type": "node",
+  "id": 3037222324,
+  "lat": 50.0632255,
+  "lon": 19.9267239
+},
+{
+  "type": "node",
+  "id": 3037222992,
+  "lat": 50.0638437,
+  "lon": 19.9262666
+},
+{
+  "type": "node",
+  "id": 3037222993,
+  "lat": 50.0638470,
+  "lon": 19.9264266
+},
+{
+  "type": "node",
+  "id": 3039915917,
+  "lat": 50.0608928,
+  "lon": 19.9261127
+},
+{
+  "type": "node",
+  "id": 4014209133,
+  "lat": 50.0653244,
+  "lon": 19.9270190
+},
+{
+  "type": "node",
+  "id": 4159986015,
+  "lat": 50.0622859,
+  "lon": 19.9238886
+},
+{
+  "type": "node",
+  "id": 4159986017,
+  "lat": 50.0625116,
+  "lon": 19.9253019
+},
+{
+  "type": "node",
+  "id": 4187587201,
+  "lat": 50.0638019,
+  "lon": 19.9266411
+},
+{
+  "type": "node",
+  "id": 4187587203,
+  "lat": 50.0638678,
+  "lon": 19.9276818
+},
+{
+  "type": "node",
+  "id": 4306409281,
+  "lat": 50.0644921,
+  "lon": 19.9242953
+},
+{
+  "type": "node",
+  "id": 4539717070,
+  "lat": 50.0657765,
+  "lon": 19.9247003
+},
+{
+  "type": "node",
+  "id": 4539717071,
+  "lat": 50.0658373,
+  "lon": 19.9247529
+},
+{
+  "type": "node",
+  "id": 4539718729,
+  "lat": 50.0657480,
+  "lon": 19.9249942
+},
+{
+  "type": "node",
+  "id": 4539719370,
+  "lat": 50.0657344,
+  "lon": 19.9250764
+},
+{
+  "type": "node",
+  "id": 5331206462,
+  "lat": 50.0658971,
+  "lon": 19.9241282
+},
+{
+  "type": "node",
+  "id": 5332328319,
+  "lat": 50.0659979,
+  "lon": 19.9248921
+},
+{
+  "type": "node",
+  "id": 31349965,
+  "lat": 50.0682665,
+  "lon": 19.9256069
+},
+{
+  "type": "node",
+  "id": 206350843,
+  "lat": 50.0694355,
+  "lon": 19.9231749
+},
+{
+  "type": "node",
+  "id": 207435825,
+  "lat": 50.0704439,
+  "lon": 19.9272372
+},
+{
+  "type": "node",
+  "id": 207435827,
+  "lat": 50.0692864,
+  "lon": 19.9263503
+},
+{
+  "type": "node",
+  "id": 207436117,
+  "lat": 50.0669876,
+  "lon": 19.9253228
+},
+{
+  "type": "node",
+  "id": 226009431,
+  "lat": 50.0682927,
+  "lon": 19.9232872
+},
+{
+  "type": "node",
+  "id": 226009456,
+  "lat": 50.0688910,
+  "lon": 19.9234648
+},
+{
+  "type": "node",
+  "id": 240971029,
+  "lat": 50.0690011,
+  "lon": 19.9266041
+},
+{
+  "type": "node",
+  "id": 240985582,
+  "lat": 50.0718201,
+  "lon": 19.9237557
+},
+{
+  "type": "node",
+  "id": 257659388,
+  "lat": 50.0714834,
+  "lon": 19.9253157
+},
+{
+  "type": "node",
+  "id": 261677470,
+  "lat": 50.0678267,
+  "lon": 19.9253278
+},
+{
+  "type": "node",
+  "id": 261677472,
+  "lat": 50.0676250,
+  "lon": 19.9253810
+},
+{
+  "type": "node",
+  "id": 261677473,
+  "lat": 50.0675842,
+  "lon": 19.9254997
+},
+{
+  "type": "node",
+  "id": 261677474,
+  "lat": 50.0675841,
+  "lon": 19.9256077
+},
+{
+  "type": "node",
+  "id": 261677475,
+  "lat": 50.0676490,
+  "lon": 19.9257290
+},
+{
+  "type": "node",
+  "id": 261677476,
+  "lat": 50.0706855,
+  "lon": 19.9276147
+},
+{
+  "type": "node",
+  "id": 262201253,
+  "lat": 50.0674188,
+  "lon": 19.9284276
+},
+{
+  "type": "node",
+  "id": 262201254,
+  "lat": 50.0665519,
+  "lon": 19.9267274
+},
+{
+  "type": "node",
+  "id": 264106041,
+  "lat": 50.0718418,
+  "lon": 19.9248507
+},
+{
+  "type": "node",
+  "id": 264106043,
+  "lat": 50.0719965,
+  "lon": 19.9249512
+},
+{
+  "type": "node",
+  "id": 264106046,
+  "lat": 50.0720641,
+  "lon": 19.9250591
+},
+{
+  "type": "node",
+  "id": 264106049,
+  "lat": 50.0721115,
+  "lon": 19.9252116
+},
+{
+  "type": "node",
+  "id": 264106094,
+  "lat": 50.0715985,
+  "lon": 19.9247219
+},
+{
+  "type": "node",
+  "id": 265517201,
+  "lat": 50.0703393,
+  "lon": 19.9271056
+},
+{
+  "type": "node",
+  "id": 265517202,
+  "lat": 50.0701214,
+  "lon": 19.9269187
+},
+{
+  "type": "node",
+  "id": 265517203,
+  "lat": 50.0696405,
+  "lon": 19.9259363
+},
+{
+  "type": "node",
+  "id": 265517208,
+  "lat": 50.0700123,
+  "lon": 19.9272855
+},
+{
+  "type": "node",
+  "id": 265517216,
+  "lat": 50.0683923,
+  "lon": 19.9273071
+},
+{
+  "type": "node",
+  "id": 266684911,
+  "lat": 50.0719368,
+  "lon": 19.9267241
+},
+{
+  "type": "node",
+  "id": 266684912,
+  "lat": 50.0726185,
+  "lon": 19.9270535
+},
+{
+  "type": "node",
+  "id": 266684914,
+  "lat": 50.0709240,
+  "lon": 19.9262549
+},
+{
+  "type": "node",
+  "id": 273459780,
+  "lat": 50.0697518,
+  "lon": 19.9232843
+},
+{
+  "type": "node",
+  "id": 273459781,
+  "lat": 50.0705794,
+  "lon": 19.9237371
+},
+{
+  "type": "node",
+  "id": 273459782,
+  "lat": 50.0712772,
+  "lon": 19.9241377
+},
+{
+  "type": "node",
+  "id": 273459783,
+  "lat": 50.0716617,
+  "lon": 19.9244213
+},
+{
+  "type": "node",
+  "id": 273461463,
+  "lat": 50.0694060,
+  "lon": 19.9241969
+},
+{
+  "type": "node",
+  "id": 273461468,
+  "lat": 50.0690490,
+  "lon": 19.9234816
+},
+{
+  "type": "node",
+  "id": 277929311,
+  "lat": 50.0662544,
+  "lon": 19.9232297
+},
+{
+  "type": "node",
+  "id": 277929321,
+  "lat": 50.0688174,
+  "lon": 19.9260064
+},
+{
+  "type": "node",
+  "id": 277930729,
+  "lat": 50.0671338,
+  "lon": 19.9248689
+},
+{
+  "type": "node",
+  "id": 277933397,
+  "lat": 50.0670168,
+  "lon": 19.9276013
+},
+{
+  "type": "node",
+  "id": 277933399,
+  "lat": 50.0678098,
+  "lon": 19.9268383
+},
+{
+  "type": "node",
+  "id": 280850514,
+  "lat": 50.0689781,
+  "lon": 19.9230757
+},
+{
+  "type": "node",
+  "id": 280858333,
+  "lat": 50.0673510,
+  "lon": 19.9230260
+},
+{
+  "type": "node",
+  "id": 280858365,
+  "lat": 50.0688520,
+  "lon": 19.9265091
+},
+{
+  "type": "node",
+  "id": 280858366,
+  "lat": 50.0690792,
+  "lon": 19.9261986
+},
+{
+  "type": "node",
+  "id": 280858368,
+  "lat": 50.0694419,
+  "lon": 19.9264465
+},
+{
+  "type": "node",
+  "id": 280858370,
+  "lat": 50.0691459,
+  "lon": 19.9267031
+},
+{
+  "type": "node",
+  "id": 284745457,
+  "lat": 50.0721304,
+  "lon": 19.9241819
+},
+{
+  "type": "node",
+  "id": 284745465,
+  "lat": 50.0721792,
+  "lon": 19.9240789
+},
+{
+  "type": "node",
+  "id": 284745474,
+  "lat": 50.0722101,
+  "lon": 19.9240452
+},
+{
+  "type": "node",
+  "id": 284745480,
+  "lat": 50.0722900,
+  "lon": 19.9240615
+},
+{
+  "type": "node",
+  "id": 284774309,
+  "lat": 50.0722505,
+  "lon": 19.9268788
+},
+{
+  "type": "node",
+  "id": 284774384,
+  "lat": 50.0713503,
+  "lon": 19.9275723
+},
+{
+  "type": "node",
+  "id": 284799667,
+  "lat": 50.0698855,
+  "lon": 19.9255973
+},
+{
+  "type": "node",
+  "id": 338263831,
+  "lat": 50.0672469,
+  "lon": 19.9254651
+},
+{
+  "type": "node",
+  "id": 338263843,
+  "lat": 50.0676927,
+  "lon": 19.9253319
+},
+{
+  "type": "node",
+  "id": 494601371,
+  "lat": 50.0693613,
+  "lon": 19.9260484
+},
+{
+  "type": "node",
+  "id": 494601377,
+  "lat": 50.0689643,
+  "lon": 19.9261088
+},
+{
+  "type": "node",
+  "id": 494601378,
+  "lat": 50.0695083,
+  "lon": 19.9264950
+},
+{
+  "type": "node",
+  "id": 494604313,
+  "lat": 50.0700890,
+  "lon": 19.9250791
+},
+{
+  "type": "node",
+  "id": 494609192,
+  "lat": 50.0699502,
+  "lon": 19.9257863
+},
+{
+  "type": "node",
+  "id": 724399300,
+  "lat": 50.0694751,
+  "lon": 19.9261277
+},
+{
+  "type": "node",
+  "id": 724399309,
+  "lat": 50.0694081,
+  "lon": 19.9259908
+},
+{
+  "type": "node",
+  "id": 724399316,
+  "lat": 50.0694325,
+  "lon": 19.9268960
+},
+{
+  "type": "node",
+  "id": 724399317,
+  "lat": 50.0698035,
+  "lon": 19.9255017
+},
+{
+  "type": "node",
+  "id": 1079816553,
+  "lat": 50.0705355,
+  "lon": 19.9250508
+},
+{
+  "type": "node",
+  "id": 1079841354,
+  "lat": 50.0669261,
+  "lon": 19.9252857
+},
+{
+  "type": "node",
+  "id": 1079841404,
+  "lat": 50.0691133,
+  "lon": 19.9265462
+},
+{
+  "type": "node",
+  "id": 1079841415,
+  "lat": 50.0690473,
+  "lon": 19.9264923
+},
+{
+  "type": "node",
+  "id": 1196055375,
+  "lat": 50.0720915,
+  "lon": 19.9255061
+},
+{
+  "type": "node",
+  "id": 1196055912,
+  "lat": 50.0715056,
+  "lon": 19.9251803
+},
+{
+  "type": "node",
+  "id": 1417480000,
+  "lat": 50.0705060,
+  "lon": 19.9271088
+},
+{
+  "type": "node",
+  "id": 1417495927,
+  "lat": 50.0714271,
+  "lon": 19.9263121
+},
+{
+  "type": "node",
+  "id": 1417495928,
+  "lat": 50.0714177,
+  "lon": 19.9252966
+},
+{
+  "type": "node",
+  "id": 1417495929,
+  "lat": 50.0714782,
+  "lon": 19.9265203
+},
+{
+  "type": "node",
+  "id": 1417495930,
+  "lat": 50.0715901,
+  "lon": 19.9243678
+},
+{
+  "type": "node",
+  "id": 1417495931,
+  "lat": 50.0716802,
+  "lon": 19.9247648
+},
+{
+  "type": "node",
+  "id": 1417495932,
+  "lat": 50.0716972,
+  "lon": 19.9242542
+},
+{
+  "type": "node",
+  "id": 1417495935,
+  "lat": 50.0723683,
+  "lon": 19.9240680
+},
+{
+  "type": "node",
+  "id": 1642480911,
+  "lat": 50.0714156,
+  "lon": 19.9264925
+},
+{
+  "type": "node",
+  "id": 1798898224,
+  "lat": 50.0687889,
+  "lon": 19.9264707
+},
+{
+  "type": "node",
+  "id": 1876568932,
+  "lat": 50.0704798,
+  "lon": 19.9236836
+},
+{
+  "type": "node",
+  "id": 1876669650,
+  "lat": 50.0701735,
+  "lon": 19.9248803
+},
+{
+  "type": "node",
+  "id": 1876669652,
+  "lat": 50.0699559,
+  "lon": 19.9254395
+},
+{
+  "type": "node",
+  "id": 1929956476,
+  "lat": 50.0721546,
+  "lon": 19.9241114
+},
+{
+  "type": "node",
+  "id": 2301481276,
+  "lat": 50.0718239,
+  "lon": 19.9266751
+},
+{
+  "type": "node",
+  "id": 2419959792,
+  "lat": 50.0697335,
+  "lon": 19.9258276
+},
+{
+  "type": "node",
+  "id": 2419959800,
+  "lat": 50.0702453,
+  "lon": 19.9246954
+},
+{
+  "type": "node",
+  "id": 2468665585,
+  "lat": 50.0692018,
+  "lon": 19.9262873
+},
+{
+  "type": "node",
+  "id": 2497646879,
+  "lat": 50.0702639,
+  "lon": 19.9249649
+},
+{
+  "type": "node",
+  "id": 2543108159,
+  "lat": 50.0694140,
+  "lon": 19.9235690
+},
+{
+  "type": "node",
+  "id": 2543108161,
+  "lat": 50.0693954,
+  "lon": 19.9240726
+},
+{
+  "type": "node",
+  "id": 2720618653,
+  "lat": 50.0702200,
+  "lon": 19.9235432
+},
+{
+  "type": "node",
+  "id": 2720618754,
+  "lat": 50.0691773,
+  "lon": 19.9231028
+},
+{
+  "type": "node",
+  "id": 2720618764,
+  "lat": 50.0682994,
+  "lon": 19.9231410
+},
+{
+  "type": "node",
+  "id": 2720618765,
+  "lat": 50.0693756,
+  "lon": 19.9231428
+},
+{
+  "type": "node",
+  "id": 2720618788,
+  "lat": 50.0694434,
+  "lon": 19.9230640
+},
+{
+  "type": "node",
+  "id": 2720618804,
+  "lat": 50.0690312,
+  "lon": 19.9230819
+},
+{
+  "type": "node",
+  "id": 2720618860,
+  "lat": 50.0694954,
+  "lon": 19.9232052
+},
+{
+  "type": "node",
+  "id": 2720618889,
+  "lat": 50.0693576,
+  "lon": 19.9235541
+},
+{
+  "type": "node",
+  "id": 2720618893,
+  "lat": 50.0706737,
+  "lon": 19.9237719
+},
+{
+  "type": "node",
+  "id": 2720619001,
+  "lat": 50.0701513,
+  "lon": 19.9246243
+},
+{
+  "type": "node",
+  "id": 2720619025,
+  "lat": 50.0682980,
+  "lon": 19.9232323
+},
+{
+  "type": "node",
+  "id": 3039915907,
+  "lat": 50.0679146,
+  "lon": 19.9268961
+},
+{
+  "type": "node",
+  "id": 3039915910,
+  "lat": 50.0679714,
+  "lon": 19.9270262
+},
+{
+  "type": "node",
+  "id": 3039915913,
+  "lat": 50.0678595,
+  "lon": 19.9268371
+},
+{
+  "type": "node",
+  "id": 3039915918,
+  "lat": 50.0666591,
+  "lon": 19.9269004
+},
+{
+  "type": "node",
+  "id": 3282683077,
+  "lat": 50.0691912,
+  "lon": 19.9267332
+},
+{
+  "type": "node",
+  "id": 3455966393,
+  "lat": 50.0693938,
+  "lon": 19.9241689
+},
+{
+  "type": "node",
+  "id": 3464222339,
+  "lat": 50.0719471,
+  "lon": 19.9266452
+},
+{
+  "type": "node",
+  "id": 3464224316,
+  "lat": 50.0713534,
+  "lon": 19.9264613
+},
+{
+  "type": "node",
+  "id": 3464224318,
+  "lat": 50.0713999,
+  "lon": 19.9266846
+},
+{
+  "type": "node",
+  "id": 3719851599,
+  "lat": 50.0673692,
+  "lon": 19.9283257
+},
+{
+  "type": "node",
+  "id": 3719851609,
+  "lat": 50.0688858,
+  "lon": 19.9267347
+},
+{
+  "type": "node",
+  "id": 3802908427,
+  "lat": 50.0666384,
+  "lon": 19.9246434
+},
+{
+  "type": "node",
+  "id": 3802908440,
+  "lat": 50.0684215,
+  "lon": 19.9233401
+},
+{
+  "type": "node",
+  "id": 4159986024,
+  "lat": 50.0683656,
+  "lon": 19.9233256
+},
+{
+  "type": "node",
+  "id": 4159986025,
+  "lat": 50.0689888,
+  "lon": 19.9234873
+},
+{
+  "type": "node",
+  "id": 4159986026,
+  "lat": 50.0690254,
+  "lon": 19.9232794
+},
+{
+  "type": "node",
+  "id": 4159986027,
+  "lat": 50.0690354,
+  "lon": 19.9233588
+},
+{
+  "type": "node",
+  "id": 4161284769,
+  "lat": 50.0708758,
+  "lon": 19.9263533
+},
+{
+  "type": "node",
+  "id": 4272158615,
+  "lat": 50.0705545,
+  "lon": 19.9274045
+},
+{
+  "type": "node",
+  "id": 5050309417,
+  "lat": 50.0669490,
+  "lon": 19.9254471
+},
+{
+  "type": "node",
+  "id": 5303267552,
+  "lat": 50.0720072,
+  "lon": 19.9248898
+},
+{
+  "type": "node",
+  "id": 5332328320,
+  "lat": 50.0695567,
+  "lon": 19.9269790
+},
+{
+  "type": "node",
+  "id": 5332381869,
+  "lat": 50.0682190,
+  "lon": 19.9255767
+},
+{
+  "type": "node",
+  "id": 5332381870,
+  "lat": 50.0666028,
+  "lon": 19.9246291
+},
+{
+  "type": "node",
+  "id": 5644418170,
+  "lat": 50.0722404,
+  "lon": 19.9240513
+},
+{
+  "type": "node",
+  "id": 5645198656,
+  "lat": 50.0703015,
+  "lon": 19.9259536
+},
+{
+  "type": "node",
+  "id": 5930210311,
+  "lat": 50.0721161,
+  "lon": 19.9242641
+},
+{
+  "type": "node",
+  "id": 5932836881,
+  "lat": 50.0665758,
+  "lon": 19.9267660
+},
+{
+  "type": "node",
+  "id": 5932836883,
+  "lat": 50.0670456,
+  "lon": 19.9275736
+},
+{
+  "type": "node",
+  "id": 6012388255,
+  "lat": 50.0705695,
+  "lon": 19.9237312
+},
+{
+  "type": "node",
+  "id": 6012388256,
+  "lat": 50.0705950,
+  "lon": 19.9237437
+},
+{
+  "type": "node",
+  "id": 284745488,
+  "lat": 50.0740028,
+  "lon": 19.9246312
+},
+{
+  "type": "node",
+  "id": 1642480945,
+  "lat": 50.0730654,
+  "lon": 19.9274473
+},
+{
+  "type": "node",
+  "id": 4161284779,
+  "lat": 50.0729730,
+  "lon": 19.9273659
+},
+{
+  "type": "node",
+  "id": 5303267549,
+  "lat": 50.0739475,
+  "lon": 19.9246122
+}
+
+  ]
+}

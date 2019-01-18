@@ -12,7 +12,7 @@ namespace EksploracjaDanych
 {
     public partial class MainForm : Form
     {
-        private const string File = @"C:\Users\Albert\Desktop\Eksploracja danych\set5.json";
+        private const string File = @"C:\Users\Albert\Desktop\Eksploracja danych\Program\EksploracjaDanych\set5.json";
         private const bool CalcClusteringCoefficient = false;
         private const bool CalcBetweennessCentrality = true;
         private const int BetweennessCentralityIterations = 1000;
