@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace EksploracjaDanych
 {
@@ -11,101 +10,7 @@ namespace EksploracjaDanych
         {
             var map = MapFileParser.LoadFromFile(filePath);
 
-            /*
-            // autostrada do Wieliczki
-            //2090492528,325927630  , 5116259356
-
-            // autostrada do 2
-            //2060318486,5884370177  , 5302232353
-
-            var w = new Way();
-            w.Nodes = new List<long>
-            {
-                2060318486,
-                5884370177,
-                5302232353,
-
-            };
-            w.Id = 123;
-            w.Tags = new Dictionary<string, string>();
-            w.Tags["maxspeed"] = "50";
-            map.Ways.Add(w);
-
-
-
-            // królewska
-
-            w = new Way();
-            w.Nodes = new List<long>
-            {
-                2419959800,
-                5926931609,
-                470618562,
-
-                1079937395,
-                1496410012,
-                2559833922,
-                3023046447,
-                4692967587
-            };
-            w.Id = 123;
-            w.Tags = new Dictionary<string, string>();
-            w.Tags["maxspeed"] = "50";
-            //1079937395 1496410012 2559833922 3023046447 4692967587
-            map.Ways.Add(w);
-
-            w = new Way();
-            w.Nodes = new List<long>
-            {
-                2419894894,
-                226836665,
-                5219326000
-            };
-            w.Id = 124;
-            w.Tags = new Dictionary<string, string>();
-            w.Tags["maxspeed"] = "50";
-            //1079937395 1496410012 2559833922 3023046447 4692967587
-            map.Ways.Add(w);
-
-            w = new Way();
-            w.Nodes = new List<long>
-            {
-                251693631,
-                2068886615
-            };
-            w.Id = 124;
-            w.Tags = new Dictionary<string, string>();
-            w.Tags["maxspeed"] = "50";
-            //1079937395 1496410012 2559833922 3023046447 4692967587
-            map.Ways.Add(w);
-
-
-            w = new Way();
-            w.Nodes = new List<long>
-            {
-                207516242,
-                1080683889,
-                2280439144
-            };
-            w.Id = 124;
-            w.Tags = new Dictionary<string, string>();
-            w.Tags["maxspeed"] = "50";
-            //1079937395 1496410012 2559833922 3023046447 4692967587
-            map.Ways.Add(w);
-
-            w = new Way();
-            w.Nodes = new List<long>
-            {
-                240977615,
-                3741515640,
-                251693603
-            };
-            w.Id = 124;
-            w.Tags = new Dictionary<string, string>();
-            w.Tags["maxspeed"] = "50";
-            //1079937395 1496410012 2559833922 3023046447 4692967587
-            map.Ways.Add(w);
-            */
+            //AddNewRoads(map);
 
             DivideRoads(map.Ways);
 
@@ -238,6 +143,103 @@ namespace EksploracjaDanych
                     : 20;
                 way.Time = way.Length / speed / 1000 * 60;
             }
+        }
+
+        private static void AddNewRoads(Map map)
+        {
+            // autostrada do Wieliczki
+            //2090492528,325927630  , 5116259356
+
+            // autostrada do 2
+            //2060318486,5884370177  , 5302232353
+
+            var w = new Way();
+            w.Nodes = new List<long>
+            {
+                2060318486,
+                5884370177,
+                5302232353,
+
+            };
+            w.Id = 123;
+            w.Tags = new Dictionary<string, string>();
+            w.Tags["maxspeed"] = "50";
+            map.Ways.Add(w);
+
+
+
+            // królewska
+
+            w = new Way();
+            w.Nodes = new List<long>
+            {
+                2419959800,
+                5926931609,
+                470618562,
+
+                1079937395,
+                1496410012,
+                2559833922,
+                3023046447,
+                4692967587
+            };
+            w.Id = 123;
+            w.Tags = new Dictionary<string, string>();
+            w.Tags["maxspeed"] = "50";
+            //1079937395 1496410012 2559833922 3023046447 4692967587
+            map.Ways.Add(w);
+
+            w = new Way();
+            w.Nodes = new List<long>
+            {
+                2419894894,
+                226836665,
+                5219326000
+            };
+            w.Id = 124;
+            w.Tags = new Dictionary<string, string>();
+            w.Tags["maxspeed"] = "50";
+            //1079937395 1496410012 2559833922 3023046447 4692967587
+            map.Ways.Add(w);
+
+            w = new Way();
+            w.Nodes = new List<long>
+            {
+                251693631,
+                2068886615
+            };
+            w.Id = 124;
+            w.Tags = new Dictionary<string, string>();
+            w.Tags["maxspeed"] = "50";
+            //1079937395 1496410012 2559833922 3023046447 4692967587
+            map.Ways.Add(w);
+
+
+            w = new Way();
+            w.Nodes = new List<long>
+            {
+                207516242,
+                1080683889,
+                2280439144
+            };
+            w.Id = 124;
+            w.Tags = new Dictionary<string, string>();
+            w.Tags["maxspeed"] = "50";
+            //1079937395 1496410012 2559833922 3023046447 4692967587
+            map.Ways.Add(w);
+
+            w = new Way();
+            w.Nodes = new List<long>
+            {
+                240977615,
+                3741515640,
+                251693603
+            };
+            w.Id = 124;
+            w.Tags = new Dictionary<string, string>();
+            w.Tags["maxspeed"] = "50";
+            //1079937395 1496410012 2559833922 3023046447 4692967587
+            map.Ways.Add(w);
         }
     }
 }
