@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EksploracjaDanych
+namespace GpxPathViewer
 {
     public static class Logger
     {

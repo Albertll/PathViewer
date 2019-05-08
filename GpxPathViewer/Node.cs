@@ -1,11 +1,16 @@
 ﻿using System;
 using System.Drawing;
 
-namespace EksploracjaDanych
+namespace GpxPathViewer
 {
+    public class TimeNode : Node
+    {
+        public DateTime Time { get; set; }
+    }
+
     public class Node
     {
-        public long Id { get; set; }
+        public long NodeId { get; set; }
         public double Lat { get; set; }
         public double Lon { get; set; }
 
@@ -15,6 +20,9 @@ namespace EksploracjaDanych
 
         private static double DistanceTo(double lat1, double lon1, double lat2, double lon2, char unit = 'K')
         {
+            if (lat1 == lat2 && lon1 == lon2)
+                return 0;
+
             var rlat1 = Math.PI * lat1 / 180;
             var rlat2 = Math.PI * lat2 / 180;
             var theta = lon1 - lon2;

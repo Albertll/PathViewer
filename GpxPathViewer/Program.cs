@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace EksploracjaDanych
+namespace GpxPathViewer
 {
     static class Program
     {

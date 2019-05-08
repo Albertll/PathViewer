@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace EksploracjaDanych
+namespace GpxPathViewer
 {
     public class Map
     {
@@ -25,10 +25,10 @@ namespace EksploracjaDanych
                 
                 foreach (var way in Ways)
                 {
-                    if (!_nodes.ContainsKey(way.Start))
-                        _nodes.Add(way.Start, AllNodes[way.Start]);
-                    if (!_nodes.ContainsKey(way.End))
-                        _nodes.Add(way.End, AllNodes[way.End]);
+                    if (!_nodes.ContainsKey(way.StartId))
+                        _nodes.Add(way.StartId, AllNodes[way.StartId]);
+                    if (!_nodes.ContainsKey(way.EndId))
+                        _nodes.Add(way.EndId, AllNodes[way.EndId]);
                 }
 
                 return _nodes;
@@ -42,7 +42,7 @@ namespace EksploracjaDanych
 
             var visited = new HashSet<long>();
             var queue = new Queue<long>();
-            queue.Enqueue(Ways.First().Start);
+            queue.Enqueue(Ways.First().StartId);
 
             while (queue.Any())
             {
@@ -59,7 +59,7 @@ namespace EksploracjaDanych
 
             foreach (var way in Ways.ToList())
             {
-                if (visited.Contains(way.Start))
+                if (visited.Contains(way.StartId))
                     continue;
 
                 Ways.Remove(way);
@@ -75,12 +75,12 @@ namespace EksploracjaDanych
 
             foreach (var way in Ways)
             {
-                AddValue(edges, way.Start, way.End);
+                AddValue(edges, way.StartId, way.EndId);
 
                 if (directional && way.OneWay)
                     continue;
 
-                AddValue(edges, way.End, way.Start);
+                AddValue(edges, way.EndId, way.StartId);
             }
 
             return edges;
@@ -99,12 +99,12 @@ namespace EksploracjaDanych
 
             foreach (var way in Ways)
             {
-                AddValue(edges, way.Start, Tuple.Create(way.End, way.Time));
+                AddValue(edges, way.StartId, Tuple.Create(way.EndId, way.Time));
 
                 if (directional && way.OneWay)
                     continue;
 
-                AddValue(edges, way.End, Tuple.Create(way.Start, way.Time));
+                AddValue(edges, way.EndId, Tuple.Create(way.StartId, way.Time));
             }
 
             return edges;
@@ -120,7 +120,7 @@ namespace EksploracjaDanych
         public void Simplify()
         {
             foreach (var way in Ways)
-                way.Nodes = new[] { way.Start, way.End };
+                way.NodeIds = new[] { way.StartId, way.EndId };
         }
 
         public ICollection<Way> RemoveEndRoads()
@@ -130,7 +130,7 @@ namespace EksploracjaDanych
             var e = GetEdges().Where(a => a.Value.Count < 2).Select(a => a.Key).ToList();
             foreach (var way in Ways.ToList())
             {
-                if (e.Contains(way.Start) || e.Contains(way.End))
+                if (e.Contains(way.StartId) || e.Contains(way.EndId))
                 {
                     endRoads.Add(way);
                     Ways.Remove(way);

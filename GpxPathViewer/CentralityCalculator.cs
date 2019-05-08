@@ -4,7 +4,7 @@ using System.Linq;
 using QuickGraph;
 using QuickGraph.Algorithms.RankedShortestPath;
 
-namespace EksploracjaDanych
+namespace GpxPathViewer
 {
     public static class CentralityCalculator
     {
@@ -30,9 +30,9 @@ namespace EksploracjaDanych
             var r1 = ways[r.Next(ways.Count)];
             var r2 = ways[r.Next(ways.Count)];
 
-            if (r1.Nodes.Contains(r2.Start)) return;
+            if (r1.NodeIds.Contains(r2.StartId)) return;
 
-            alg.Compute(r1.Start, r2.Start);
+            alg.Compute(r1.StartId, r2.StartId);
             foreach (var shortestPath in alg.ComputedShortestPaths)
             {
                 foreach (var edge in shortestPath)

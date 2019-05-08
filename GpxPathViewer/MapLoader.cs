@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace EksploracjaDanych
+namespace GpxPathViewer
 {
     public class MapLoader
     {
@@ -25,8 +25,8 @@ namespace EksploracjaDanych
         {
             Logger.Log("Merging roads");
 
-            var heads = ways.GroupBy(a => a.Start, a => a).Where(a => a.Count() == 1).ToDictionary(a => a.Key, a => a.First());
-            var tails = ways.GroupBy(a => a.End, a => a).Where(a => a.Count() == 1).ToDictionary(a => a.Key, a => a.First());
+            var heads = ways.GroupBy(a => a.StartId, a => a).Where(a => a.Count() == 1).ToDictionary(a => a.Key, a => a.First());
+            var tails = ways.GroupBy(a => a.EndId, a => a).Where(a => a.Count() == 1).ToDictionary(a => a.Key, a => a.First());
             var joined = heads.Join(tails, a => a.Key, b => b.Key, Tuple.Create).ToList();
 
             foreach (var tuple in joined)
@@ -35,12 +35,12 @@ namespace EksploracjaDanych
                 var tail = tuple.Item2.Value;
                 var head = tuple.Item1.Value;
 
-                while (tail.Parent != null && tail.Parent.Id == -2)
+                while (tail.Parent != null && tail.Parent.WayId == -2)
                 {
                     tail = tail.Parent;
                 }
 
-                while (head.Parent != null && head.Parent.Id == -2)
+                while (head.Parent != null && head.Parent.WayId == -2)
                 {
                     head = head.Parent;
                 }
@@ -49,10 +49,10 @@ namespace EksploracjaDanych
 
                 var newWay = new Way
                 {
-                    Id = -2,
+                    WayId = -2,
                     Children = new[] { tail, head },
-                    Nodes = tail.Nodes.Concat(head.Nodes.Skip(1)).ToList(),
-                    Parent = tail.Id == -2 ? tail.Parent : tail,
+                    NodeIds = tail.NodeIds.Concat(head.NodeIds.Skip(1)).ToList(),
+                    Parent = tail.WayId == -2 ? tail.Parent : tail,
                     Root = tail.Root ?? tail,
                     OneWay = tail.OneWay,
                     Length = tail.Length + head.Length,
@@ -75,27 +75,27 @@ namespace EksploracjaDanych
         {
             Logger.Log("Dividing roads");
 
-            var all = ways.SelectMany(a => a.Nodes).OrderBy(a => a).ToList();
+            var all = ways.SelectMany(a => a.NodeIds).OrderBy(a => a).ToList();
 
             var intersects = new HashSet<long>(all.GroupBy(a => a).Where(a => a.Count() > 1).Select(a => a.Key));
 
             foreach (var way in ways.ToList())
             {
-                var newWayNodes = way.Nodes.Take(way.Nodes.Count - 1).Skip(1).Where(a => intersects.Contains(a)).ToList();
+                var newWayNodes = way.NodeIds.Take(way.NodeIds.Count - 1).Skip(1).Where(a => intersects.Contains(a)).ToList();
                 if (!newWayNodes.Any())
                     continue;
 
-                var startNode = way.Start;
+                var startNode = way.StartId;
                 foreach (var newWayNode in newWayNodes)
                 {
                     var newWay = new Way
                     {
                         Parent = way,
                         Root = way.Root ?? way,
-                        Id = -1,
-                        Nodes = way.Nodes.SkipWhile(a => a != startNode).TakeWhile(a => a != newWayNode).ToList()
+                        WayId = -1,
+                        NodeIds = way.NodeIds.SkipWhile(a => a != startNode).TakeWhile(a => a != newWayNode).ToList()
                     };
-                    newWay.Nodes.Add(newWayNode);
+                    newWay.NodeIds.Add(newWayNode);
 
                     startNode = newWayNode;
                     ways.Add(newWay);
@@ -106,8 +106,8 @@ namespace EksploracjaDanych
                 {
                     Parent = way,
                     Root = way.Root ?? way,
-                    Id = -1,
-                    Nodes = way.Nodes.SkipWhile(a => a != startNode).ToList()
+                    WayId = -1,
+                    NodeIds = way.NodeIds.SkipWhile(a => a != startNode).ToList()
                 };
                 ways.Add(newWayEnd);
                 way.Children.Add(newWayEnd);
@@ -123,7 +123,9 @@ namespace EksploracjaDanych
                 var length = 0.0;
                 Node lastNode = null;
 
-                foreach (var node in way.Nodes.Select(n => nodes[n]))
+                var wayNodes = way.NodeIds.Select(n => nodes[n]).ToList();
+
+                foreach (var node in wayNodes)
                 {
                     if (lastNode == null)
                     {
@@ -142,6 +144,13 @@ namespace EksploracjaDanych
                     ? (int.TryParse(way.Tags["maxspeed"], out aa) ? aa : 50)
                     : 20;
                 way.Time = way.Length / speed / 1000 * 60;
+
+                way.MinX = wayNodes.Min(n => n.Lon);
+                way.MinY = wayNodes.Min(n => n.Lat);
+                way.MaxX = wayNodes.Max(n => n.Lon);
+                way.MaxY = wayNodes.Max(n => n.Lat);
+
+                way.Nodes = wayNodes;
             }
         }
 
@@ -154,14 +163,14 @@ namespace EksploracjaDanych
             //2060318486,5884370177  , 5302232353
 
             var w = new Way();
-            w.Nodes = new List<long>
+            w.NodeIds = new List<long>
             {
                 2060318486,
                 5884370177,
                 5302232353,
 
             };
-            w.Id = 123;
+            w.WayId = 123;
             w.Tags = new Dictionary<string, string>();
             w.Tags["maxspeed"] = "50";
             map.Ways.Add(w);
@@ -171,7 +180,7 @@ namespace EksploracjaDanych
             // królewska
 
             w = new Way();
-            w.Nodes = new List<long>
+            w.NodeIds = new List<long>
             {
                 2419959800,
                 5926931609,
@@ -183,32 +192,32 @@ namespace EksploracjaDanych
                 3023046447,
                 4692967587
             };
-            w.Id = 123;
+            w.WayId = 123;
             w.Tags = new Dictionary<string, string>();
             w.Tags["maxspeed"] = "50";
             //1079937395 1496410012 2559833922 3023046447 4692967587
             map.Ways.Add(w);
 
             w = new Way();
-            w.Nodes = new List<long>
+            w.NodeIds = new List<long>
             {
                 2419894894,
                 226836665,
                 5219326000
             };
-            w.Id = 124;
+            w.WayId = 124;
             w.Tags = new Dictionary<string, string>();
             w.Tags["maxspeed"] = "50";
             //1079937395 1496410012 2559833922 3023046447 4692967587
             map.Ways.Add(w);
 
             w = new Way();
-            w.Nodes = new List<long>
+            w.NodeIds = new List<long>
             {
                 251693631,
                 2068886615
             };
-            w.Id = 124;
+            w.WayId = 124;
             w.Tags = new Dictionary<string, string>();
             w.Tags["maxspeed"] = "50";
             //1079937395 1496410012 2559833922 3023046447 4692967587
@@ -216,26 +225,26 @@ namespace EksploracjaDanych
 
 
             w = new Way();
-            w.Nodes = new List<long>
+            w.NodeIds = new List<long>
             {
                 207516242,
                 1080683889,
                 2280439144
             };
-            w.Id = 124;
+            w.WayId = 124;
             w.Tags = new Dictionary<string, string>();
             w.Tags["maxspeed"] = "50";
             //1079937395 1496410012 2559833922 3023046447 4692967587
             map.Ways.Add(w);
 
             w = new Way();
-            w.Nodes = new List<long>
+            w.NodeIds = new List<long>
             {
                 240977615,
                 3741515640,
                 251693603
             };
-            w.Id = 124;
+            w.WayId = 124;
             w.Tags = new Dictionary<string, string>();
             w.Tags["maxspeed"] = "50";
             //1079937395 1496410012 2559833922 3023046447 4692967587

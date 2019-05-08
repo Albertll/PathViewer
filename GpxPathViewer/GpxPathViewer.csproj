@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{12F6A8D2-B192-458C-8254-D26C1A2C1A39}</ProjectGuid>
+    <ProjectGuid>{6BBB393C-CA52-4B90-9566-CC932835E36F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EksploracjaDanych</RootNamespace>
-    <AssemblyName>EksploracjaDanych</AssemblyName>
+    <RootNamespace>GpxPathViewer</RootNamespace>
+    <AssemblyName>GpxPathViewer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,9 +36,8 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MarkdownSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MarkdownSharp.1.13.0.0\lib\35\MarkdownSharp.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Albertl">
+      <HintPath>..\..\Albertl\Albertl\bin\Debug\Albertl.exe</HintPath>
     </Reference>
     <Reference Include="QuickGraph, Version=3.6.61114.0, Culture=neutral, PublicKeyToken=f3fb40175eec2af3, processorArchitecture=MSIL">
       <HintPath>..\packages\QuickGraph.3.6.61119.7\lib\net4\QuickGraph.dll</HintPath>
@@ -62,18 +61,11 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="WebHelpers, Version=4.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\WebHelpers.4.0.2\lib\net45\WebHelpers.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CentralityCalculator.cs" />
+    <Compile Include="Hub.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -90,7 +82,9 @@
     <Compile Include="Way.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
