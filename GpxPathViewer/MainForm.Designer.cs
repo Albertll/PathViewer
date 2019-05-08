@@ -28,18 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this._logLabel = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
-            // label1
+            // _logLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this._logLabel.AutoSize = true;
+            this._logLabel.Location = new System.Drawing.Point(13, 13);
+            this._logLabel.Name = "_logLabel";
+            this._logLabel.Size = new System.Drawing.Size(53, 13);
+            this._logLabel.TabIndex = 0;
+            this._logLabel.Text = "_logLabel";
             // 
             // checkBox1
             // 
@@ -57,7 +57,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(959, 607);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this._logLabel);
             this.Name = "MainForm";
             this.Text = "Mapa";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -68,7 +68,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label _logLabel;
         private System.Windows.Forms.CheckBox checkBox1;
     }
 }

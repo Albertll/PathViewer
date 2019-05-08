@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -7,14 +6,9 @@ using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading;
 using System.Windows.Forms;
 using System.Threading.Tasks;
-using System.Xml;
-using System.Xml.Linq;
-using System.Xml.XPath;
+using Albertl;
 using Albertl.FileParsing;
 
 namespace GpxPathViewer
@@ -24,9 +18,6 @@ namespace GpxPathViewer
         #region Constants
 
         private const string DataFile = @"..\..\..\data\set4.json";
-        //private const bool UseClusteringCoefficient = false;
-        //private const bool UseBetweennessCentrality = false;
-        //private const int BetweennessCentralityIterations = 1000;
 
         #endregion
 
@@ -34,18 +25,13 @@ namespace GpxPathViewer
 
         private Map Map { get; set; }
 
-        private ICollection<Way> _deadWays = new List<Way>();
-
-        //private IDictionary<long, double> _clusteringWage = new Dictionary<long, double>();
-        //private IDictionary<long, double> _betweennessWage = new Dictionary<long, double>();
-
         private double? _avgX;
         private double? _avgY;
 
-        private double _scale = 1.3;
-        private Point _moveStart;
+        private double _scale = 1000;
+        private Point _moveStartLocation;
+        private Size _moveStartPoint;
         private Size _move = new Size(1, 1);
-        private Size _move0;
         private double _scaledPoints;
 
         #endregion
@@ -68,20 +54,17 @@ namespace GpxPathViewer
         {
             Invoke((Action) (() =>
             {
-                label1.Text = msg;
-                label1.Invalidate();
+                _logLabel.Text = msg;
+                _logLabel.Invalidate();
             }));
         }
 
         protected override async void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
-            tb.Text = "asd";
-            tb.Top = 100;
-            Controls.Add(tb);
+
             await Task.Run((Action)PrepareData);
         }
-        Label tb = new Label();
 
         protected override void OnResize(EventArgs e)
         {
@@ -92,8 +75,8 @@ namespace GpxPathViewer
         protected override void OnMouseDown(MouseEventArgs e)
         {
             base.OnMouseDown(e);
-            _moveStart = e.Location;
-            _move0 = _move;
+            _moveStartLocation = e.Location;
+            _moveStartPoint = _move;
         }
 
         protected override void OnMouseMove(MouseEventArgs e)
@@ -101,16 +84,15 @@ namespace GpxPathViewer
             base.OnMouseMove(e);
             if ((e.Button & MouseButtons.Left) != 0)
             {
-                _move = _move0 + new Size(e.X - _moveStart.X, e.Y - _moveStart.Y);
+                _move = _moveStartPoint + new Size(e.X - _moveStartLocation.X, e.Y - _moveStartLocation.Y);
                 Invalidate();
             }
 
             if (Map?.IsReady ?? false)
             {
-                var x = (-Width / 2 + e.X - _move.Width) / _scale / 1000 + _avgX;
-                var y = (Height / 2 - e.Y + _move.Height) / _scale / 1545 + _avgY;
-                tb.Text = x + "\r\n" + y;
-                //(int)((node.Lon - _avgX) * 1000 * _scale),
+                var x = (-Width / 2 + e.X - _move.Width) / _scale + _avgX;
+                var y = (Height / 2 - e.Y + _move.Height) / _scale / _latLonFactor + _avgY;
+                _logLabel.Text = x + "\r\n" + y;
             }
         }
 
@@ -160,11 +142,7 @@ namespace GpxPathViewer
             s2.Start();
             DrawRoads(e.Graphics, screenMove, Map.Ways.Where(w => w.OneWay), Color.Orange);
             DrawRoads(e.Graphics, screenMove, Map.Ways.Where(w => !w.OneWay), Color.DarkGoldenrod);
-            DrawRoads(e.Graphics, screenMove, _deadWays, Color.Tomato);
             s2.Stop();
-
-            //DrawDots(e.Graphics, screenMove, _clusteringWage, false);
-            //DrawDots(e.Graphics, screenMove, _betweennessWage, true);
 
             s3.Start();
             DrawPath(e.Graphics, screenMove, Color.Black);
@@ -176,7 +154,7 @@ namespace GpxPathViewer
                 q.Dequeue();
             q.Enqueue(ss.Elapsed);
 
-            e.Graphics.DrawString(q.Average(a => a.Milliseconds).ToString(), DefaultFont, new SolidBrush(Color.Black), 10, 10);
+            e.Graphics.DrawString(q.Average(a => a.Milliseconds).ToString(), DefaultFont, new SolidBrush(Color.Black), 10, 50);
             //e.Graphics.DrawString(ss.Elapsed.ToString(), DefaultFont, new SolidBrush(Color.Black), 10, 10);
             
             s1.Stop();
@@ -184,11 +162,21 @@ namespace GpxPathViewer
         
 
         Queue<TimeSpan> q = new Queue<TimeSpan>();
-
+        private double _latLonFactor;
         private void CheckScale()
         {
             _avgX = _avgX ?? (_avgX = Map.Nodes.Average(n => n.Value.Lon));
             _avgY = _avgY ?? (_avgY = Map.Nodes.Average(n => n.Value.Lat));
+
+
+            if (_latLonFactor <= 0)
+            {
+                var node = Map.Nodes.Values.First();
+                var latLength = Node.DistanceTo(node.Lat, node.Lon, node.Lat + 0.01, node.Lon);
+                var lonLength = Node.DistanceTo(node.Lat, node.Lon, node.Lat, node.Lon + 0.01);
+                _latLonFactor = latLength / lonLength;
+            }
+
 
             if (_scaledPoints != _scale)
             {
@@ -197,15 +185,15 @@ namespace GpxPathViewer
                 foreach (var node in Map.AllNodes.Values)
                 {
                     node.Loc = new Point(
-                        (int) ((node.Lon - _avgX) * 1000 * _scale),
-                        (int) (Height - (node.Lat - _avgY) * 1545 * _scale));
+                        (int) ((node.Lon - _avgX) * _scale),
+                        (int) (Height - (node.Lat - _avgY) * _scale * _latLonFactor));
                 }
 
                 foreach (var node in _paths.SelectMany(n => n).ToList())
                 {
                     node.Loc = new Point(
-                        (int) ((node.Lon - _avgX) * 1000 * _scale),
-                        (int) (Height - (node.Lat - _avgY) * 1545 * _scale));
+                        (int) ((node.Lon - _avgX) * _scale),
+                        (int) (Height - (node.Lat - _avgY) * _scale * _latLonFactor));
                 }
             }
         }
@@ -214,8 +202,6 @@ namespace GpxPathViewer
         Stopwatch s2 = new Stopwatch();
         Stopwatch s3 = new Stopwatch();
         Stopwatch s4 = new Stopwatch();
-        Stopwatch s5 = new Stopwatch();
-        Stopwatch s6 = new Stopwatch();
         
         private void DrawRoads(Graphics graphics, Size screenMove, IEnumerable<Way> ways, Color color)
         {
@@ -362,87 +348,15 @@ namespace GpxPathViewer
             return l;
         }
 
-        //private IEnumerable<Point> SkipSame2(IEnumerable<Node> nodes, Size screenMove)
-        //{
-        //    var l = new List<Point>();
-        //    Point? previous = null;
-        //    var previousAdded = false;
-
-        //    foreach (var point in nodes.Select(n => n.Loc + screenMove))
-        //    {
-        //        if (point != previous
-        //            && point.X > -50 && point.Y > -50
-        //            && point.X < Width + 50 && point.Y < Height + 50)
-        //            //yield return point;
-        //        {
-        //            if (!previousAdded && previous.HasValue)
-        //                l.Add(previous.Value);
-
-        //            l.Add(point);
-
-        //            previousAdded = true;
-        //        }
-        //        else
-        //        {
-        //            if (previousAdded)
-        //                l.Add(point);
-
-        //            previousAdded = false;
-        //        }
-
-        //        previous = point;
-        //    }
-
-        //    return l;
-        //}
-
-        //private void DrawDots(Graphics graphics, Size screenMove, IDictionary<long, double> wages, bool convertValue)
-        //{
-        //    foreach (var pair in wages)
-        //    {
-        //        var node = Map.AllNodes[pair.Key];
-
-        //        var v = convertValue
-        //            ? Math.Log(1 + pair.Value) * 2.5
-        //            : pair.Value;
-
-        //        // ReSharper disable once CompareOfFloatsByEqualityOperator
-        //        var size = pair.Value == 0 ? 5 : 10;
-
-        //        var color = GetColor(v);
-
-        //        graphics.FillEllipse(new SolidBrush(color), node.Loc.X + screenMove.Width - 3,
-        //            node.Loc.Y + screenMove.Height - 3, size, size);
-        //    }
-        //}
-
         private void DrawDots(Graphics graphics, Size screenMove)
         {
             foreach (var hub in Hub.GetWaveloHubs())
             {
                 graphics.FillEllipse(new SolidBrush(Color.DeepPink), 
-                    (int)((hub.Lon - _avgX.Value) * 1000 * _scale + screenMove.Width - 3),
-                    (int)(Height - (hub.Lat - _avgY.Value) * 1545 * _scale + screenMove.Height - 3), 
+                    (int)((hub.Lon - _avgX.Value) * _scale + screenMove.Width - 3),
+                    (int)(Height - (hub.Lat - _avgY.Value) * _scale * _latLonFactor + screenMove.Height - 3), 
                     6, 6);
             }
-        }
-
-        private static Color GetColor(double v)
-        {
-            var r = v < 1.0 ? MinMax(v * 1020 - 510) : MinMax(v * -1020 + 1275);
-            var g = v < 0.5 ? MinMax(v * 1020) : MinMax(v * -1020 + 1020);
-            var b = MinMax(v * -1020 + 510);
-
-            var color = Color.FromArgb(r, g, b);
-            return color;
-        }
-
-        private static int MinMax(double value)
-        {
-            var intValue = (int) value;
-            return intValue > 255
-                ? 255
-                : (intValue < 0 ? 0 : intValue);
         }
 
         #endregion
@@ -451,43 +365,20 @@ namespace GpxPathViewer
         {
             Map = MapLoader.LoadFromFile(DataFile);
 
-            _deadWays = Map.RemoveDeadNodes();
-
-            //if (UseClusteringCoefficient)
-            //    _clusteringWage = CentralityCalculator.CalcClusteringCoefficient(Map);
-
-            //Map.Simplify();
-
             Map.IsReady = true;
-
-            //Invalidate();
-
-            //if (UseBetweennessCentrality)
-            //    CentralityCalculator.CalcBetweennessCentrality(Map, BetweennessCentralityIterations, out _betweennessWage);
 
             PrepareGpx();
             Invalidate();
         }
 
 
-
-
         private void PrepareGpx()
         {
-            Adfdsf();
-            var dirSource = File.ReadAllLines(@"..\..\..\Path.txt").First();
-            foreach (var file in Directory.GetFiles(dirSource, "*.gpx"))
-            {
-                var path = ReadGpxFile(file);
-                if (path.Count() > 1)
-                {
-                    _paths.Add(path);
-                    _distances.Add(file, path.Length);
-                }
-            }
+            var dirSource = File.ReadLines(@"..\..\..\Path.txt").First();
+            _paths.AddRange(Directory.GetFiles(dirSource, "*.gpx").Select(ReadGpxFile));
 
-            File.WriteAllLines(@"C:\Users\Albert\Desktop\Nowy folder\Wavelo\stats.txt",
-                _paths.OrderBy(p => p.Id).Select(p => p.ToString()));
+            //File.WriteAllLines(@"C:\Users\Albert\Desktop\Nowy folder\Wavelo\stats.txt",
+            //    _paths.OrderBy(p => p.Id).Select(p => p.ToString()));
 
             Logger.Log("");
         }
@@ -530,71 +421,5 @@ namespace GpxPathViewer
         }
 
         private readonly ICollection<Path> _paths = new List<Path>();
-        private readonly IDictionary<string, double> _distances = new Dictionary<string, double>();
-
-        private void Adfdsf()
-        {
-            //var p = @"C:\Users\Albert\Desktop\Nowy folder\Wavelo\sobi_ride_11086082_fix.gpx";
-            //var aa = ReadGpxFile(p).ToList();
-
-            //double length = GetLength(aa);
-
-            //length = 0;
-        }
-
-
-    }
-
-    public class Path : IEnumerable<Node>
-    {
-        public IList<Node> Nodes { get; }
-        public string FilePath { get; set; }
-        public double Length => GetLength(Nodes);
-        public int Id => int.Parse(string.Concat(FilePath.SkipWhile(c => !char.IsDigit(c)).TakeWhile(char.IsDigit)));
-
-        public TimeSpan Duration => ((TimeNode) Nodes.Last()).Time - ((TimeNode) Nodes.First()).Time;
-        public DateTime TimeStart => ((TimeNode)Nodes.First()).Time;
-        public DateTime TimeEnd => ((TimeNode)Nodes.Last()).Time;
-        //public string Start => Area.Get().FirstOrDefault(a => a.IsBetween(Nodes.First()))?.Name; 
-        //public string Stop => Area.Get().FirstOrDefault(a => a.IsBetween(Nodes.Last()))?.Name; 
-        public string Start => Hub.GetWaveloHubs().FirstOrDefault(a => a.IsInside(Nodes.First()))?.Name; 
-        public string Stop => Hub.GetWaveloHubs().FirstOrDefault(a => a.IsInside(Nodes.Last()))?.Name; 
-        
-        public Path(IEnumerable<Node> nodes)
-        {
-            Nodes = nodes.ToList();
-        }
-
-        public override string ToString()
-            => Id + "\t" +
-               Length.ToString("F2") + "\t" +
-               Duration + "\t" +
-               Start + "\t" +
-               Stop + "\t" +
-               TimeStart + "\t" +
-               TimeEnd;
-               //(TimeStart.Date == TimeEnd.Date
-               //    ? TimeEnd.ToLongTimeString()
-               //    : TimeEnd.ToString());
-
-        public IEnumerator<Node> GetEnumerator() => Nodes.GetEnumerator();
-
-        IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
-
-        public static double GetLength(IEnumerable<Node> nodes)
-        {
-            var length = 0.0;
-
-            Node previous = null;
-            foreach (var node in nodes)
-            {
-                if (previous != null)
-                    length += node.DistanceTo(previous);
-
-                previous = node;
-            }
-
-            return length;
-        }
     }
 }

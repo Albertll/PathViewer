@@ -37,7 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Albertl">
-      <HintPath>..\..\Albertl\Albertl\bin\Debug\Albertl.exe</HintPath>
+      <HintPath>..\..\Albertl\Albertl\bin\Debug\Albertl.dll</HintPath>
     </Reference>
     <Reference Include="QuickGraph, Version=3.6.61114.0, Culture=neutral, PublicKeyToken=f3fb40175eec2af3, processorArchitecture=MSIL">
       <HintPath>..\packages\QuickGraph.3.6.61119.7\lib\net4\QuickGraph.dll</HintPath>
@@ -64,7 +64,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CentralityCalculator.cs" />
     <Compile Include="Hub.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="MainForm.cs">
@@ -77,6 +76,7 @@
     <Compile Include="Map.cs" />
     <Compile Include="MapFileParser.cs" />
     <Compile Include="Node.cs" />
+    <Compile Include="Path.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Way.cs" />

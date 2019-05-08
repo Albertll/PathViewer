@@ -18,7 +18,7 @@ namespace GpxPathViewer
 
         public double DistanceTo(Node node) => DistanceTo(Lat, Lon, node.Lat, node.Lon);
 
-        private static double DistanceTo(double lat1, double lon1, double lat2, double lon2, char unit = 'K')
+        internal static double DistanceTo(double lat1, double lon1, double lat2, double lon2)
         {
             if (lat1 == lat2 && lon1 == lon2)
                 return 0;
@@ -34,17 +34,7 @@ namespace GpxPathViewer
             dist = dist * 180 / Math.PI;
             dist = dist * 60 * 1.1515;
 
-            switch (unit)
-            {
-                case 'K': //Kilometers -> default
-                    return dist * 1.609344;
-                case 'N': //Nautical Miles 
-                    return dist * 0.8684;
-                case 'M': //Miles
-                    return dist;
-            }
-
-            return dist;
+            return dist * 1.609344;
         }
     }
 }
